@@ -14,7 +14,7 @@
 	<key>BackgroundGraphic</key>
 	<dict>
 		<key>Bounds</key>
-		<string>{{0, 0}, {1440, 1168}}</string>
+		<string>{{0, 0}, {1440, 1175}}</string>
 		<key>Class</key>
 		<string>SolidGraphic</string>
 		<key>ID</key>
@@ -38,7 +38,7 @@
 	<key>CanvasOrigin</key>
 	<string>{0, 0}</string>
 	<key>CanvasSize</key>
-	<string>{1440, 1168}</string>
+	<string>{1440, 1175}</string>
 	<key>ColumnAlign</key>
 	<integer>0</integer>
 	<key>ColumnSpacing</key>
@@ -325,7 +325,7 @@ prov:Create \cf2 \expnd0\expndtw0\kerning0
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{405.82080452307736, 1086.9550579921406}, {32, 14}}</string>
+			<string>{{405.87349882357262, 1106.2274381919976}, {32, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -405,7 +405,7 @@ ttl}</string>
 			<key>Points</key>
 			<array>
 				<string>{359.32861328125, 1119.0749493719768}</string>
-				<string>{414.53784034189357, 1091.8422911167154}</string>
+				<string>{419.53784034189357, 1112.8422911167154}</string>
 				<string>{473, 1135.4000797271729}</string>
 			</array>
 			<key>Style</key>
@@ -5177,8 +5177,8 @@ prov:wasRevisionOf\
 			<array>
 				<string>{327.5, 9}</string>
 				<string>{327, 311.31957817077819}</string>
-				<string>{357, 915}</string>
-				<string>{388, 1128}</string>
+				<string>{357, 953}</string>
+				<string>{388, 1169}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -8470,7 +8470,7 @@ http://www.w3.org/ns/prov-o}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-02-11 16:47:05 +0000</string>
+	<string>2014-02-11 16:50:08 +0000</string>
 	<key>Modifier</key>
 	<string>Tim Lebo</string>
 	<key>NotesVisible</key>
@@ -8563,7 +8563,7 @@ http://www.w3.org/ns/prov-o}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{2, 426}, {1437, 742}}</string>
+		<string>{{2, 432}, {1437, 742}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
