@@ -8,6 +8,7 @@
 # 
 #    git clone https://github.com/timrdf/prov-wg.git
 
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix doap: <http://usefulinc.com/ns/doap#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
 
@@ -21,4 +22,5 @@
    doap:browse   <https://github.com/timrdf/prov-wg>;
    doap:location <https://github.com/timrdf/prov-wg.git>;
    prov:wasAttributedTo <http://tw.rpi.edu/instances/TimLebo>;
+   foaf:isPrimaryTopicOf <>;
 .
