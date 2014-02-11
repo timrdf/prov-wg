@@ -1,0 +1,21 @@
+# This git repository was copied from the latest version of the W3C PROV-WG's mercurial repository,
+# which can be retrieved using the following command.
+# 
+#    hg clone https://dvcs.w3.org/hg/prov
+# 
+# Our copy can be retrieved using the following command.
+# 
+#    git clone https://github.com/timrdf/prov-wg.git
+
+@prefix doap: <http://usefulinc.com/ns/doap#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+
+<https://dvcs.w3.org/hg/prov> a doap:HgRepository;
+   doap:browse   <https://dvcs.w3.org/hg/prov>;
+   doap:location <https://dvcs.w3.org/hg/prov>;
+.
+<https://github.com/timrdf/prov-wg> a doap:GitRepository;
+   prov:wasDerivedFrom <https://dvcs.w3.org/hg/prov>;
+   doap:browse   <https://github.com/timrdf/prov-wg>;
+   doap:location <https://github.com/timrdf/prov-wg.git>;
+.

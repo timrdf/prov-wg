@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xml:base="http://www.w3.org/ns/prov-o-inverses">
+  <rdf:Description rdf:about="prov#actedOnBehalfOf">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#activity">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#activityOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>activityOfInfluence</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#agent">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#agentOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>agentOfInfluence</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#alternateOf">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>alternateOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#alternateOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#atLocation">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#contributed">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>contributed</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasAttributedTo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#ended">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>ended</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasEndedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#entity">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#entityOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>entityOfInfluence</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#generalizationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>generalizationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#specializationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#generated">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>generated</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasGeneratedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#generatedAsDerivation">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>generatedAsDerivation</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadGeneration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadActivity">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadDelegate">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>hadDelegate</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#actedOnBehalfOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadDerivation">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>hadDerivation</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasDerivedFrom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadGeneration">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadInfluence">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>hadInfluence</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#influencer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadMember">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadPlan">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadPrimarySource">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadRevision">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>hadRevision</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasRevisionOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadRole">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#hadUsage">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#influenced">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>influenced</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasInfluencedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#influencer">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#informed">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>informed</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasInformedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#invalidated">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>invalidated</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasInvalidatedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#locationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>locationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#atLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedAssociation">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedAssociationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedAssociationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedAssociation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedAttribution">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedAttributionOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedAttributionOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedAttribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedCommunication">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedCommunicationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedCommunicationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedCommunication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedDelegation">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedDelegationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedDelegationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedDelegation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedDerivation">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedDerivationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedDerivationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedDerivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedEnd">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedEndOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedEndOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedEnd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedGeneration">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedGenerationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedGenerationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedGeneration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedInfluence">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedInfluenceOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedInfluenceOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedInfluence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedInvalidation">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedInvalidationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedInvalidationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedInvalidation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedPrimarySource">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedQuotation">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedQuotationOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedQuotationOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedQuotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedRevision">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedSourceOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedSourceOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedPrimarySource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedStart">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedStartOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedStartOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedStart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedUsage">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#qualifiedUsingActivity">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>qualifiedUsingActivity</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedUsage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#quotedAs">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>quotedAs</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasQuotedFrom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#revisedEntity">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>revisedEntity</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#qualifiedRevision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#specializationOf">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#started">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>started</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasStartedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#used">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasActivityOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasActivityOfInfluence</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasAssociateFor">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasAssociateFor</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#wasAssociatedWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasAssociatedWith">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasAttributedTo">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasDerivedFrom">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasEndedBy">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasGeneratedBy">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasGeneratedBy</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#generated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasInfluencedBy">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasInfluencedBy</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#influenced"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasInformedBy">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasInvalidatedBy">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasInvalidatedBy</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#invalidated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasMemberOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasMemberOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadMember"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasPlanOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasPlanOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadPlan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasPrimarySourceOf">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasPrimarySourceOf</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadPrimarySource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasQuotedFrom">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasRevisionOf">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasRoleIn">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasRoleIn</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasStartedBy">
+    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasUsedBy">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasUsedBy</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#used"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="prov#wasUsedInDerivation">
+    <rdfs:isDefinedBy rdf:resource="#"/>
+    <rdfs:label>wasUsedInDerivation</rdfs:label>
+    <owl:inverseOf rdf:resource="prov#hadUsage"/>
+  </rdf:Description>
+  <owl:Ontology rdf:about="#">
+    <rdfs:seeAlso rdf:resource="../TR/prov-o/#names-of-inverse-properties"/>
+    <owl:imports rdf:resource="prov-o#"/>
+    <owl:versionIRI rdf:resource="prov-o-inverses-20130430"/>
+    <prov:specializationOf rdf:resource=""/>
+    <prov:wasDerivedFrom rdf:resource="prov-o-20130430"/>
+    <prov:wasRevisionOf rdf:resource="prov-o-inverses-20120312"/>
+  </owl:Ontology>
+</rdf:RDF>

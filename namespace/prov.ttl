@@ -1,0 +1,20 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/ns/prov#>
+    a owl:Ontology ;
+    rdfs:comment """This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page).
+
+If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/
+Archives/Public/public-prov-comments/). All feedback is welcome."""@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov> ;
+    rdfs:label "W3C PROVenance Interchange"@en ;
+    rdfs:seeAlso <http://www.w3.org/TR/prov-overview/> ;
+    owl:versionIRI <http://www.w3.org/ns/prov-YYYYMMDD> ;
+    owl:imports         <http://www.w3.org/ns/prov-aq#>, <http://www.w3.org/ns/prov-dictionary#>, <http://www.w3.org/ns/prov-o#>, <http://www.w3.org/ns/prov-o-inverses#> ;
+    prov:wasDerivedFrom <http://www.w3.org/ns/prov-aq#>, <http://www.w3.org/ns/prov-dictionary#>, <http://www.w3.org/ns/prov-o#>, <http://www.w3.org/ns/prov-o-inverses#> ;
+    prov:wasRevisionOf <http://www.w3.org/ns/prov-YYYYmmdd> .
+

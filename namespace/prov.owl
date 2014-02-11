@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xml:base="http://www.w3.org/ns/prov">
+
+   <owl:Ontology rdf:about="http://www.w3.org/ns/prov#">
+      <rdfs:label xml:lang="en">W3C PROVenance Interchange</rdfs:label>
+      <rdfs:comment xml:lang="en">This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page).
+
+If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/
+Archives/Public/public-prov-comments/). All feedback is welcome.</rdfs:comment>
+      <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-YYYYMMDD"/>
+      <wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-YYYYmmdd"/>
+      <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov"/>
+      <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/prov-overview/"/>
+
+      <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-o#"/>
+      <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
+      <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-aq#"/>
+      <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-dc#"/>
+      <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
+      <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-links#"/>
+
+      <!--This file contains the results of importing the following.-->
+      <owl:imports rdf:resource="http://www.w3.org/ns/prov-o#"/>
+      <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
+      <owl:imports rdf:resource="http://www.w3.org/ns/prov-aq#"/>
+      <owl:imports rdf:resource="http://www.w3.org/ns/prov-dc#"/>
+      <owl:imports rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
+      <owl:imports rdf:resource="http://www.w3.org/ns/prov-links#"/>
+   </owl:Ontology>
+</rdf:RDF>
