@@ -14,9 +14,11 @@
 <https://dvcs.w3.org/hg/prov> a doap:HgRepository;
    doap:browse   <https://dvcs.w3.org/hg/prov>;
    doap:location <https://dvcs.w3.org/hg/prov>;
+   prov:wasAttributedTo <http://www.w3.org/2001/sw/#prov>;
 .
 <https://github.com/timrdf/prov-wg> a doap:GitRepository;
    prov:wasDerivedFrom <https://dvcs.w3.org/hg/prov>;
    doap:browse   <https://github.com/timrdf/prov-wg>;
    doap:location <https://github.com/timrdf/prov-wg.git>;
+   prov:wasAttributedTo <http://tw.rpi.edu/instances/TimLebo>;
 .
