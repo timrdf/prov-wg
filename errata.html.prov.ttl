@@ -1,0 +1,67 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<http://www.w3.org/2011/prov/errata.html>
+   a prov:Entity;
+   dcterms:modified             "2013-08-07T08:15:28"^^xsd:dateTime;
+.
+
+<errata.html>
+   a nfo:FileDataObject, prov:Entity;
+   nfo:fileName "errata.html";
+   nfo:hasHash             <md5_0939b64caa3c5c463d3f28f894215521_time_1406127863>;
+   prov:wasQuotedFrom      <http://www.w3.org/2011/prov/errata.html>;
+   prov:qualifiedQuotation <quotation_a824b88b-b441-4eb2-9b56-2288e864ca27>;
+.
+<md5_0939b64caa3c5c463d3f28f894215521_time_1406127863>
+   a nfo:FileHash; 
+   dcterms:date      "2014-07-23T11:04:23-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "0939b64caa3c5c463d3f28f894215521";
+.
+
+<quotation_a824b88b-b441-4eb2-9b56-2288e864ca27>
+   a prov:Quotation;
+   prov:entity <http://www.w3.org/2011/prov/errata.html>;
+   prov:atTime "2014-07-23T11:04:22-04:00"^^xsd:dateTime;
+.
+
+<infoa824b88b-b441-4eb2-9b56-2288e864ca27_url_header>
+   a conv:HTTPHeader;
+   prov:value """HTTP/1.1 200 OK
+Date: Wed, 23 Jul 2014 15:03:52 GMT
+Server: Apache/2
+Last-Modified: Wed, 07 Aug 2013 08:15:28 GMT
+ETag: "3a09-4e35724ecc800"
+Accept-Ranges: bytes
+Content-Length: 14857
+Cache-Control: max-age=21600
+Expires: Wed, 23 Jul 2014 21:03:52 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Content-Type: text/html; charset=utf-8
+""";
+.
+ 
+conv:curl_md5_bf0d4311974d361fa499f706ead901a9
+   a prov:Agent, conv:Curl;
+   dcterms:identifier "md5_bf0d4311974d361fa499f706ead901a9";
+   dcterms:description """curl 7.30.0 (x86_64-apple-darwin13.0) libcurl/7.30.0 SecureTransport zlib/1.2.5
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp 
+Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz """;
+.
