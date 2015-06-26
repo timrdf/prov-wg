@@ -24,9 +24,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:comment "A given dictionary forms a given structure for its members. A different structure (obtained either by insertion or removal of members) constitutes a different dictionary." ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-conceptual-definition"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-conceptual-definition"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :EmptyDictionary
 	a owl:Class ;
@@ -37,9 +37,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:subClassOf :Dictionary ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-conceptual-definition"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-conceptual-definition"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :KeyEntityPair
 	a owl:Class ;
@@ -58,9 +58,9 @@ If you wish to make comments regarding this document, please send them to public
 		] ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-membership"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-membership"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-membership"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-membership"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :Insertion
 	a owl:Class ;
@@ -80,9 +80,9 @@ If you wish to make comments regarding this document, please send them to public
 		] ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-insertion"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-insertion"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI ;
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-insertion"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-insertion"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI ;
 	:unqualifiedForm :derivedByInsertionFrom .
 	
 :Removal
@@ -103,9 +103,9 @@ If you wish to make comments regarding this document, please send them to public
 		] ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-removal"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-removal"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI ;
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-removal"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-removal"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI ;
 	:unqualifiedForm :derivedByRemovalFrom .
 	
 :dictionary
@@ -118,11 +118,11 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :Dictionary ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-insertion"^^xsd:anyURI ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-removal"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-insertion"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-removal"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-insertion"^^xsd:anyURI ;
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-removal"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-insertion"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-removal"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :derivedByInsertionFrom
 	a owl:ObjectProperty ;
@@ -134,9 +134,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :Dictionary ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-insertion"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-insertion"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-insertion"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-insertion"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :derivedByRemovalFrom
 	a owl:ObjectProperty ;
@@ -148,9 +148,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :Dictionary ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-removal"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-removal"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-removal"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-removal"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :insertedKeyEntityPair
 	a owl:ObjectProperty ;
@@ -161,9 +161,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :KeyEntityPair ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-insertion"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-insertion"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-insertion"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-insertion"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :hadDictionaryMember
 	a owl:ObjectProperty ;
@@ -174,9 +174,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :KeyEntityPair ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-membership"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-membership"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-membership"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-membership"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :pairKey
 	a owl:DatatypeProperty, owl:FunctionalProperty ;
@@ -187,9 +187,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range rdfs:Literal ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-membership"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-membership"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-membership"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-membership"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :pairEntity
 	a owl:ObjectProperty, owl:FunctionalProperty ;
@@ -200,9 +200,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :Entity ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-membership"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-membership"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-membership"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-membership"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :qualifiedInsertion
 	a owl:ObjectProperty ;
@@ -214,9 +214,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :Insertion ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-insertion"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-insertion"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-insertion"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-insertion"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :qualifiedRemoval
 	a owl:ObjectProperty ;
@@ -228,9 +228,9 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range :Removal ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-removal"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-removal"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-removal"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-removal"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
 	
 :removedKey
 	a owl:DatatypeProperty ;
@@ -241,6 +241,6 @@ If you wish to make comments regarding this document, please send them to public
 	rdfs:range rdfs:Literal ;
 	:category "collections" ;
 	:component "collections" ;
-	:dm "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#term-dictionary-removal"^^xsd:anyURI ;
-	:n "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#expression-dictionary-removal"^^xsd:anyURI ;
-	:constraints "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312/#dictionary-constraints"^^xsd:anyURI .
+	:dm "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#term-dictionary-removal"^^xsd:anyURI ;
+	:n "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#expression-dictionary-removal"^^xsd:anyURI ;
+	:constraints "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^xsd:anyURI .
