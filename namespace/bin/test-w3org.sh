@@ -42,6 +42,12 @@ test_ns 'text/turtle'         http://www.w3.org/ns/prov-o-inverses  prov-o-inver
 test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-o-inverses  prov-o-inverses.owl
 echo
 
+# prov-aq
+
+test_ns 'text/turtle'         http://www.w3.org/ns/prov-dictionary  prov-dictionary.ttl
+test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-dictionary  prov-dictionary.owl
+echo
+
 test_ns 'text/turtle'         http://www.w3.org/ns/prov-links  prov-links.ttl
 test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-links  prov-links.owl
 test_ns 'application/xml'     http://www.w3.org/ns/prov-links  prov-links.xsd
