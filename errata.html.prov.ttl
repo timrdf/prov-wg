@@ -1,67 +1,152 @@
 @prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
 @prefix foaf:       <http://xmlns.com/foaf/0.1/> .
 @prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
 @prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
 @prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
 @prefix conv:       <http://purl.org/twc/vocab/conversion/> .
-@prefix prov:       <http://www.w3.org/ns/prov#> .
-@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
-@prefix sioc:       <http://rdfs.org/sioc/ns#> .
-@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix httphead:   <http://inference-web.org/registry/MPR/HTTP_1_1_HEAD.owl#> .
+@prefix httpget:    <http://inference-web.org/registry/MPR/HTTP_1_1_GET.owl#> .
+@prefix httppost:   <http://inference-web.org/registry/MPR/HTTP_1_1_POST.owl#> .
+@prefix prv:        <http://purl.org/net/provenance/ns#>.
 @prefix prov:       <http://www.w3.org/ns/prov#> .
 
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
 <http://tw.rpi.edu/instances/TimLebo>
   a prov:Agent, foaf:Agent;
   foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
 .
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
 
 <http://www.w3.org/2011/prov/errata.html>
    a prov:Entity;
-   dcterms:modified             "2013-08-07T08:15:28"^^xsd:dateTime;
 .
 
-<errata.html>
+<http://www.w3.org/2011/prov/errata.html>
+   a prov:Entity;
+   dcterms:modified "2015-06-26T15:05:14"^^xsd:dateTime;
+.
+
+<http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce/path/d11b69af3ea82f27512785c764bb710c/errata.html>
    a nfo:FileDataObject, prov:Entity;
-   nfo:fileName "errata.html";
-   nfo:hasHash             <md5_0939b64caa3c5c463d3f28f894215521_time_1406127863>;
    prov:wasQuotedFrom      <http://www.w3.org/2011/prov/errata.html>;
-   prov:qualifiedQuotation <quotation_a824b88b-b441-4eb2-9b56-2288e864ca27>;
+   prov:qualifiedQuotation <http://localhost/id/url/3b3aaa40a9e62ad7ec3985af6ab967d3/quoted/2015/06/26/T/11/09/05>;
 .
-<md5_0939b64caa3c5c463d3f28f894215521_time_1406127863>
+<http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce/path/d11b69af3ea82f27512785c764bb710c/errata.html>
+   a nfo:FileDataObject;
+   nfo:fileName "errata.html";
+   dcterms:date "2015-06-26T11:09:06-04:00"^^xsd:dateTime;
+   nfo:hasHash     <http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce>; #<md5_5a06adbcd539eb8ce74540622278f9ce_time_1435331346>;
+   prov:atLocation <http://localhost/id/path/d11b69af3ea82f27512785c764bb710c/errata.html>;
+.
+<http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce>
    a nfo:FileHash; 
-   dcterms:date      "2014-07-23T11:04:23-04:00"^^xsd:dateTime;
    nfo:hashAlgorithm "md5";
-   nfo:hashValue     "0939b64caa3c5c463d3f28f894215521";
+   nfo:hashValue     "5a06adbcd539eb8ce74540622278f9ce";
+.
+<http://localhost/id/path/d11b69af3ea82f27512785c764bb710c/errata.html> prv:serializedBy <errata.html> .
+
+<nodeSetf1b99507-12d3-4a8d-bb28-790660b0ae34_content>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce/path/d11b69af3ea82f27512785c764bb710c/errata.html>;
+   pmlj:isConsequentOf <inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_content>;
+.
+<inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_content>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_content>;
+   pmlj:hasInferenceEngine conv:curl_md5_4f3049d5116d4fe276ba6b9cf772cd7c;
+   pmlj:hasInferenceRule   httpget:HTTP_1_1_GET;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
 .
 
-<quotation_a824b88b-b441-4eb2-9b56-2288e864ca27>
+<http://localhost/id/url/3b3aaa40a9e62ad7ec3985af6ab967d3/quoted/2015/06/26/T/11/09/05>
    a prov:Quotation;
    prov:entity <http://www.w3.org/2011/prov/errata.html>;
-   prov:atTime "2014-07-23T11:04:22-04:00"^^xsd:dateTime;
+   prov:atTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
 .
 
-<infoa824b88b-b441-4eb2-9b56-2288e864ca27_url_header>
-   a conv:HTTPHeader;
-   prov:value """HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2014 15:03:52 GMT
-Server: Apache/2
-Last-Modified: Wed, 07 Aug 2013 08:15:28 GMT
-ETag: "3a09-4e35724ecc800"
-Accept-Ranges: bytes
-Content-Length: 14857
-Cache-Control: max-age=21600
-Expires: Wed, 23 Jul 2014 21:03:52 GMT
-P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
-Content-Type: text/html; charset=utf-8
-""";
+
+<wasControlledByf1b99507-12d3-4a8d-bb28-790660b0ae34_content>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_content>;
+   oprov:endTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
 .
  
-conv:curl_md5_bf0d4311974d361fa499f706ead901a9
-   a prov:Agent, conv:Curl;
-   dcterms:identifier "md5_bf0d4311974d361fa499f706ead901a9";
-   dcterms:description """curl 7.30.0 (x86_64-apple-darwin13.0) libcurl/7.30.0 SecureTransport zlib/1.2.5
+<infof1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
+   a prov:Entity, conv:HTTPHeader;
+   prov:value """HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 15:08:58 GMT
+Server: Apache/2
+Last-Modified: Fri, 26 Jun 2015 15:05:14 GMT
+ETag: "3c81-5196d112f5e80"
+Accept-Ranges: bytes
+Content-Length: 15489
+Cache-Control: max-age=21600
+Expires: Fri, 26 Jun 2015 21:08:58 GMT
+P3P: policyref="http://www.w3.org/2014/08/p3p.xml"
+Content-Type: text/html; charset=utf-8
+""";
+   pmlp:hasReferenceSourceUsage <sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
+.
+ 
+<nodeSetf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <infof1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
+   pmlj:isConsequentOf <inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
+.
+<inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
+   pmlj:hasInferenceEngine conv:curl_md5_4f3049d5116d4fe276ba6b9cf772cd7c;
+   pmlj:hasInferenceRule   httphead:HTTP_1_1_HEAD;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://www.w3.org/2011/prov/errata.html>;
+   pmlp:hasUsageDateTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
+.
+<wasControlledByf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <nodeSetf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
+   oprov:endTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
+.
+
+
+conv:curl_md5_4f3049d5116d4fe276ba6b9cf772cd7c
+   a prov:Agent, pmlp:InferenceEngine, conv:Curl;
+   dcterms:identifier "md5_4f3049d5116d4fe276ba6b9cf772cd7c";
+   dcterms:description """curl 7.37.1 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
 Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp 
 Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz """;
 .
+
+conv:Curl rdfs:subClassOf pmlp:InferenceEngine .
