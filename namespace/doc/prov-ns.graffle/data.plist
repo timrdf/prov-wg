@@ -6,26 +6,21 @@
 	<integer>0</integer>
 	<key>ApplicationVersion</key>
 	<array>
-		<string>com.omnigroup.OmniGrafflePro</string>
-		<string>139.18.0.187838</string>
+		<string>com.omnigroup.OmniGraffle6</string>
+		<string>161.6.0.234333</string>
 	</array>
 	<key>AutoAdjust</key>
 	<true/>
 	<key>BackgroundGraphic</key>
 	<dict>
 		<key>Bounds</key>
-		<string>{{0, 0}, {1440, 1177}}</string>
+		<string>{{0, 0}, {1491, 1243}}</string>
 		<key>Class</key>
 		<string>SolidGraphic</string>
 		<key>ID</key>
 		<integer>2</integer>
 		<key>Style</key>
 		<dict>
-			<key>shadow</key>
-			<dict>
-				<key>Draws</key>
-				<string>NO</string>
-			</dict>
 			<key>stroke</key>
 			<dict>
 				<key>Draws</key>
@@ -38,7 +33,7 @@
 	<key>CanvasOrigin</key>
 	<string>{0, 0}</string>
 	<key>CanvasSize</key>
-	<string>{1440, 1177}</string>
+	<string>{1491, 1243}</string>
 	<key>ColumnAlign</key>
 	<integer>0</integer>
 	<key>ColumnSpacing</key>
@@ -48,9 +43,9 @@
 	<key>Creator</key>
 	<string>Tim Lebo</string>
 	<key>DisplayScale</key>
-	<string>1 0/72 in = 1.0000 in</string>
+	<string>1 in = 1.00000 in</string>
 	<key>GraphDocumentVersion</key>
-	<integer>8</integer>
+	<integer>12</integer>
 	<key>GraphicsList</key>
 	<array>
 		<dict>
@@ -77,8 +72,6 @@
 				<string>Georgia</string>
 				<key>NSKern</key>
 				<real>0.0</real>
-				<key>Size</key>
-				<real>16</real>
 			</dict>
 			<key>ID</key>
 			<integer>388</integer>
@@ -95,8 +88,6 @@
 			</dict>
 			<key>Rotation</key>
 			<real>322.73724365234375</real>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -120,8 +111,8 @@
 				<key>Pad</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -144,6 +135,11 @@ file inclusion\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -206,8 +202,6 @@ file inclusion\
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -224,8 +218,8 @@ file inclusion\
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -257,6 +251,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -277,7 +276,7 @@ ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{414.67466454169534, 1052.1299776700266}, {32, 14}}</string>
+			<string>{{414.67466088174399, 1052.1299768293218}, {32, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -313,8 +312,6 @@ ttl}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -331,8 +328,8 @@ ttl}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -358,10 +355,15 @@ ttl}</string>
 			<array>
 				<string>{372.00000000000131, 1050.5999928595259}</string>
 				<string>{410.53784034189357, 1054.8422911167154}</string>
-				<string>{472.51270791112131, 1069.0880686380092}</string>
+				<string>{472.51270791101041, 1069.0880686379837}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -391,11 +393,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -410,8 +407,6 @@ ttl}</string>
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -449,8 +444,8 @@ ttl}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
@@ -474,11 +469,6 @@ dct:isFormatOf \cf2 \expnd0\expndtw0\kerning0
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -493,8 +483,6 @@ dct:isFormatOf \cf2 \expnd0\expndtw0\kerning0
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -532,8 +520,8 @@ dct:isFormatOf \cf2 \expnd0\expndtw0\kerning0
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
@@ -583,8 +571,6 @@ prov:Create \cf2 \expnd0\expndtw0\kerning0
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -601,8 +587,8 @@ prov:Create \cf2 \expnd0\expndtw0\kerning0
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -632,6 +618,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -667,6 +658,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -707,11 +703,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -726,8 +717,6 @@ ttl}</string>
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -751,8 +740,8 @@ ttl}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -775,11 +764,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -798,8 +782,6 @@ ttl}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -816,8 +798,8 @@ ttl}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -847,6 +829,11 @@ rdf+xml}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -912,8 +899,6 @@ rdf+xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -930,8 +915,8 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -963,6 +948,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -992,11 +982,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1013,8 +998,6 @@ ttl}</string>
 				<string>{0.37897969112013663, -0.50000000000000178}</string>
 				<string>{0.32167310086225709, -0.50000000000000178}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -1052,8 +1035,8 @@ ttl}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -1079,11 +1062,6 @@ prov:Accept\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1098,8 +1076,6 @@ prov:Accept\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -1137,8 +1113,8 @@ prov:Accept\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -1158,11 +1134,6 @@ prov:Accept\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1179,8 +1150,6 @@ prov:Accept\
 				<string>{-0.5, -0.24999999999999911}</string>
 				<string>{-0.5, 0.25000000000000089}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -1218,8 +1187,8 @@ prov:Accept\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -1242,11 +1211,6 @@ prov:mentionOf\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1265,8 +1229,6 @@ prov:mentionOf\
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -1283,8 +1245,8 @@ prov:mentionOf\
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -1314,6 +1276,11 @@ rdf+xml}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1343,7 +1310,7 @@ rdf+xml}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{344.9815331456727, 869.26026157686726}, {32, 14}}</string>
+			<string>{{344.98153256978065, 869.26026174349624}, {32, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1379,8 +1346,6 @@ rdf+xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -1397,8 +1362,8 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -1424,10 +1389,15 @@ xml}</string>
 			<array>
 				<string>{256.32861328125, 900.8500009657572}</string>
 				<string>{346.75380326843595, 880.28970848338076}</string>
-				<string>{412.75991918227578, 859.15248015951681}</string>
+				<string>{412.75991915956615, 859.15248016678913}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1493,8 +1463,6 @@ xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -1511,8 +1479,8 @@ xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -1544,6 +1512,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -1573,11 +1546,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1592,8 +1560,6 @@ ttl}</string>
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -1631,8 +1597,8 @@ ttl}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -1652,11 +1618,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1675,8 +1636,6 @@ ttl}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -1693,8 +1652,8 @@ ttl}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -1726,6 +1685,11 @@ rdf+xml}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1755,7 +1719,7 @@ rdf+xml}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{348.94506747678622, 692.64923646234467}, {32, 14}}</string>
+			<string>{{348.94506537552013, 692.6492367031218}, {32, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1791,8 +1755,6 @@ rdf+xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -1809,8 +1771,8 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -1836,10 +1798,15 @@ xml}</string>
 			<array>
 				<string>{292.32861328125, 724.04999791399939}</string>
 				<string>{356.17815019226407, 701}</string>
-				<string>{412.7362097995703, 699.81049363730335}</string>
+				<string>{412.73620978851903, 699.81049363753573}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1878,11 +1845,6 @@ xml}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -1899,8 +1861,6 @@ xml}</string>
 				<string>{-0.5, -0.24999999999999911}</string>
 				<string>{-0.5, 0.25000000000000089}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -1938,8 +1898,8 @@ xml}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -1964,22 +1924,13 @@ prov:Dictionary\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Georgia</string>
 				<key>NSKern</key>
 				<real>0.0</real>
-				<key>Size</key>
-				<real>16</real>
 			</dict>
 			<key>ID</key>
 			<integer>282</integer>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2003,8 +1954,8 @@ prov:Dictionary\
 				<key>Pad</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -2027,8 +1978,6 @@ prov:Dictionary\
 			<integer>3</integer>
 			<key>Rotation</key>
 			<real>90</real>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2059,22 +2008,13 @@ prov:Dictionary\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Georgia</string>
 				<key>NSKern</key>
 				<real>0.0</real>
-				<key>Size</key>
-				<real>16</real>
 			</dict>
 			<key>ID</key>
 			<integer>280</integer>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2098,8 +2038,8 @@ prov:Dictionary\
 				<key>Pad</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -2122,11 +2062,6 @@ prov:Dictionary\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -2143,8 +2078,6 @@ prov:Dictionary\
 				<string>{-0.5, -0.24999999999999911}</string>
 				<string>{-0.5, 0.25000000000000089}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2182,8 +2115,8 @@ prov:Dictionary\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -2208,11 +2141,6 @@ prov:Dictionary\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -2231,8 +2159,6 @@ prov:Dictionary\
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -2249,8 +2175,8 @@ prov:Dictionary\
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -2300,8 +2226,6 @@ rdf+xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -2318,8 +2242,8 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -2351,6 +2275,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2398,6 +2327,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -2425,8 +2359,6 @@ ttl}</string>
 			<integer>102</integer>
 			<key>ImageID</key>
 			<integer>1</integer>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2457,11 +2389,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -2476,8 +2403,6 @@ ttl}</string>
 				<string>{1, 0}</string>
 				<string>{-0.5, -0.45812508124269929}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2515,8 +2440,8 @@ ttl}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -2619,11 +2544,6 @@ prov:mentionOf rdfs:isDefinedBy &lt;http://www.w3.org/ns/prov-links#&gt; .\
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -2638,8 +2558,6 @@ prov:mentionOf rdfs:isDefinedBy &lt;http://www.w3.org/ns/prov-links#&gt; .\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -2677,8 +2595,8 @@ prov:mentionOf rdfs:isDefinedBy &lt;http://www.w3.org/ns/prov-links#&gt; .\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -2727,8 +2645,6 @@ prov:mentionOf rdfs:isDefinedBy &lt;http://www.w3.org/ns/prov-links#&gt; .\
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -2745,8 +2661,8 @@ prov:mentionOf rdfs:isDefinedBy &lt;http://www.w3.org/ns/prov-links#&gt; .\
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -2769,11 +2685,6 @@ xml}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -2792,8 +2703,6 @@ xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -2810,8 +2719,8 @@ xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -2841,6 +2750,11 @@ rdf+xml}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2886,6 +2800,11 @@ rdf+xml}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2935,6 +2854,11 @@ rdf+xml}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Color</key>
@@ -2964,7 +2888,7 @@ rdf+xml}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1047.6473526209593, 945.58625401583106}, {147, 38}}</string>
+					<string>{{1047.6473579369485, 945.58625401583106}, {147, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2973,17 +2897,10 @@ rdf+xml}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>215</integer>
@@ -2998,8 +2915,6 @@ rdf+xml}</string>
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -3023,8 +2938,8 @@ rdf+xml}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3039,7 +2954,7 @@ HTTP Request\
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1149.9770814638323, 915.23207234792881}, {85, 19}}</string>
+					<string>{{1149.9770834315564, 915.23207394445808}, {85, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3048,15 +2963,8 @@ HTTP Request\
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>216</integer>
@@ -3069,8 +2977,6 @@ HTTP Request\
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -3087,8 +2993,8 @@ HTTP Request\
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
@@ -3111,11 +3017,16 @@ HTTP Request\
 					<integer>217</integer>
 					<key>Points</key>
 					<array>
-						<string>{1244.9571506573438, 967.31161499023438}</string>
-						<string>{1133.6464246713813, 877}</string>
+						<string>{1244.9571506573352, 967.31161499023438}</string>
+						<string>{1133.6464246713324, 877}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Color</key>
@@ -3174,8 +3085,6 @@ HTTP Request\
 					</dict>
 					<key>ID</key>
 					<integer>218</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -3192,8 +3101,8 @@ HTTP Request\
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3234,8 +3143,6 @@ xml, application/xml}</string>
 					</dict>
 					<key>ID</key>
 					<integer>219</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -3252,8 +3159,8 @@ xml, application/xml}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3276,11 +3183,6 @@ html, text/html}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -3290,8 +3192,6 @@ html, text/html}</string>
 					</dict>
 					<key>ID</key>
 					<integer>220</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -3308,8 +3208,8 @@ html, text/html}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3350,8 +3250,6 @@ rdf+xml, application/rdf+xml}</string>
 					</dict>
 					<key>ID</key>
 					<integer>221</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -3368,8 +3266,8 @@ rdf+xml, application/rdf+xml}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3383,7 +3281,7 @@ ttl, text/turtle}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1023.6871899830294, 912.05143283975303}, {76, 19}}</string>
+					<string>{{1023.6871899449229, 912.05143287442013}, {76, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3392,15 +3290,8 @@ ttl, text/turtle}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>222</integer>
@@ -3413,8 +3304,6 @@ ttl, text/turtle}</string>
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -3431,8 +3320,8 @@ ttl, text/turtle}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
@@ -3455,11 +3344,16 @@ ttl, text/turtle}</string>
 					<integer>223</integer>
 					<key>Points</key>
 					<array>
-						<string>{1021.2685164895888, 957.81161499023438}</string>
-						<string>{1111.3479945024856, 877}</string>
+						<string>{1021.2685164898248, 957.81161499023438}</string>
+						<string>{1111.347994503391, 877}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Color</key>
@@ -3500,22 +3394,13 @@ ttl, text/turtle}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>224</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -3539,8 +3424,8 @@ ttl, text/turtle}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3561,22 +3446,13 @@ Resource Representation}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>225</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -3600,8 +3476,8 @@ Resource Representation}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3622,22 +3498,13 @@ Uniform Resource Identifier}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>226</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -3661,8 +3528,8 @@ Uniform Resource Identifier}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3676,7 +3543,7 @@ Resource}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1039.2645513227783, 1132.8246414445312}, {114.5, 38}}</string>
+					<string>{{1039.2645506463939, 1132.8246414204484}, {114.5, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3698,8 +3565,6 @@ Resource}</string>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>227</integer>
@@ -3712,8 +3577,6 @@ Resource}</string>
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -3737,8 +3600,8 @@ Resource}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3761,6 +3624,11 @@ available representation}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Color</key>
@@ -3785,7 +3653,7 @@ available representation}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1044.4409770042446, 1084.5236971216827}, {114.5, 38}}</string>
+					<string>{{1044.4409706524139, 1084.5236985842882}, {114.5, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3794,17 +3662,10 @@ available representation}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>229</integer>
@@ -3818,9 +3679,7 @@ available representation}</string>
 						<integer>2</integer>
 					</dict>
 					<key>Rotation</key>
-					<real>347.27069091796875</real>
-					<key>Shape</key>
-					<string>Rectangle</string>
+					<real>347.2706823553126</real>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -3844,8 +3703,8 @@ available representation}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3868,6 +3727,11 @@ default representation}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>HeadArrow</key>
@@ -3887,7 +3751,7 @@ default representation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{614.74303069832638, 56.553895986967724}, {39, 14}}</string>
+			<string>{{614.7430589403574, 56.553890540240729}, {39, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -3923,8 +3787,6 @@ default representation}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -3941,8 +3803,8 @@ default representation}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -3968,10 +3830,15 @@ html}</string>
 			<array>
 				<string>{230.32861328125, 191.41316223144531}</string>
 				<string>{617.75426831074242, 66.968336212797055}</string>
-				<string>{852.93828627252799, 54.022876040256762}</string>
+				<string>{852.93828626011941, 54.022876040939778}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -4001,11 +3868,6 @@ html}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Helvetica</string>
 				<key>NSKern</key>
@@ -4015,8 +3877,6 @@ html}</string>
 			</dict>
 			<key>ID</key>
 			<integer>97</integer>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -4057,14 +3917,14 @@ html}</string>
 				b3KGkoSEhAdOU0NvbG9yAJSEAWMChARmZmZmAIO1tLQ+
 				g52cHD8BhpKElpYQTlNQYXJhZ3JhcGhTdHlsZYaShISE
 				EE5TUGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwAAhISEB05T
-				QXJyYXkAlJkAhoECAoQEWzJmXYNmZpBBJIaShJaWBk5T
-				Rm9udIaShISEBk5TRm9udB6UmRyEBVsyOGNdBgAAABQA
-				AAD//kgAZQBsAHYAZQB0AGkAYwBhAIQBZhGbAJsBmwCb
-				AIaGhg==
+				QXJyYXkAlJkAhoECCoQEWzNmXYNmZpBBJIPNzEw9hpKE
+				lpYGTlNGb250hpKEhIQGTlNGb250HpSZHIQFWzI4Y10G
+				AAAAFAAAAP/+SABlAGwAdgBlAHQAaQBjAGEAhAFmEZsA
+				mwGbAJsAhoaG
 				</data>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
 \pard\pardeftab720\sa361
@@ -4086,8 +3946,6 @@ html}</string>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
 					<integer>100</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -4132,11 +3990,6 @@ html}</string>
 					<string>Clip</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -4151,8 +4004,6 @@ html}</string>
 						<key>url</key>
 						<string>http://www.w3.org/TR/prov-o/</string>
 					</dict>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -4216,6 +4067,11 @@ html}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -4267,6 +4123,11 @@ html}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -4309,11 +4170,6 @@ html}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -4332,8 +4188,6 @@ html}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -4350,8 +4204,8 @@ html}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -4401,8 +4255,6 @@ rdf+xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -4419,8 +4271,8 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -4452,6 +4304,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -4499,6 +4356,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -4528,11 +4390,6 @@ ttl}</string>
 			<string>Resize</string>
 			<key>FontInfo</key>
 			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
 				<key>Font</key>
 				<string>Courier</string>
 				<key>NSKern</key>
@@ -4551,8 +4408,6 @@ ttl}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -4569,8 +4424,8 @@ ttl}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -4620,8 +4475,6 @@ rdf+xml}</string>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>shadow</key>
@@ -4638,8 +4491,8 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -4671,6 +4524,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -4718,6 +4576,11 @@ ttl}</string>
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
@@ -4752,11 +4615,6 @@ ttl}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -4771,8 +4629,6 @@ ttl}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -4794,8 +4650,8 @@ ttl}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -4818,11 +4674,6 @@ http://www.w3.org/ns/prov-o}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -4842,8 +4693,6 @@ http://www.w3.org/ns/prov-o}</string>
 						<string>{-0.5, -0.24999999999999911}</string>
 						<string>{0.5, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -4881,8 +4730,8 @@ http://www.w3.org/ns/prov-o}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -4916,11 +4765,6 @@ http://www.w3.org/ns/prov-o}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -4935,8 +4779,6 @@ http://www.w3.org/ns/prov-o}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -4958,8 +4800,8 @@ http://www.w3.org/ns/prov-o}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -4982,11 +4824,6 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -5008,8 +4845,6 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 						<string>{0.44842406876790841, 0}</string>
 						<string>{-0.5, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5047,8 +4882,8 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
@@ -5084,8 +4919,6 @@ prov:wasRevisionOf\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -5119,8 +4952,6 @@ prov:wasRevisionOf\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -5154,8 +4985,6 @@ prov:wasRevisionOf\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -5189,8 +5018,6 @@ prov:wasRevisionOf\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -5224,8 +5051,6 @@ prov:wasRevisionOf\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -5259,8 +5084,6 @@ prov:wasRevisionOf\
 				<string>{1, 0}</string>
 				<string>{-1, 0}</string>
 			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -5300,6 +5123,11 @@ prov:wasRevisionOf\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -5341,6 +5169,11 @@ prov:wasRevisionOf\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -5387,6 +5220,11 @@ prov:wasRevisionOf\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -5433,6 +5271,11 @@ prov:wasRevisionOf\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -5481,6 +5324,11 @@ prov:wasRevisionOf\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -5527,6 +5375,11 @@ prov:wasRevisionOf\
 			</array>
 			<key>Style</key>
 			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -5574,22 +5427,13 @@ prov:wasRevisionOf\
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>331</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5615,8 +5459,8 @@ prov:wasRevisionOf\
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
@@ -5639,11 +5483,6 @@ The direct mappings are available here.}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica-Oblique</string>
 						<key>NSKern</key>
@@ -5653,8 +5492,6 @@ The direct mappings are available here.}</string>
 					</dict>
 					<key>ID</key>
 					<integer>332</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5680,8 +5517,8 @@ The direct mappings are available here.}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
@@ -5702,11 +5539,6 @@ The prov refinements for Dublin Core can be accessed here here.}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -5721,8 +5553,6 @@ The prov refinements for Dublin Core can be accessed here here.}</string>
 						<string>{0.47327044905085947, 0.5}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5744,8 +5574,8 @@ The prov refinements for Dublin Core can be accessed here here.}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -5768,11 +5598,6 @@ http://www.w3.org/ns/prov-dc-directmappings.ttl}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -5787,8 +5612,6 @@ http://www.w3.org/ns/prov-dc-directmappings.ttl}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5810,8 +5633,8 @@ http://www.w3.org/ns/prov-dc-directmappings.ttl}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -5859,8 +5682,6 @@ http://www.w3.org/ns/prov-dc-refinements.ttl}</string>
 							<integer>336</integer>
 							<key>Rotation</key>
 							<real>270</real>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -5884,8 +5705,8 @@ http://www.w3.org/ns/prov-dc-refinements.ttl}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -5906,8 +5727,6 @@ Note}</string>
 							<integer>337</integer>
 							<key>ImageID</key>
 							<integer>1</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -5938,11 +5757,6 @@ Note}</string>
 							<string>Resize</string>
 							<key>FontInfo</key>
 							<dict>
-								<key>Color</key>
-								<dict>
-									<key>w</key>
-									<string>0</string>
-								</dict>
 								<key>Font</key>
 								<string>Helvetica</string>
 								<key>NSKern</key>
@@ -5952,8 +5766,6 @@ Note}</string>
 							</dict>
 							<key>ID</key>
 							<integer>338</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6015,21 +5827,21 @@ Note}</string>
 								lIQEQ0NAUwAA
 								hISEB05TQXJy
 								YXkAlJkAhoEC
-								AoQEWzJmXYNm
-								ZpBBJIaShJaW
-								Bk5TRm9udIaS
-								hISEBk5TRm9u
-								dB6UmRyEBVsy
-								OGNdBgAAABQA
-								AAD//kgAZQBs
-								AHYAZQB0AGkA
-								YwBhAIQBZhGb
-								AJsBmwCbAIaG
-								hg==
+								CoQEWzNmXYNm
+								ZpBBJIPNzEw9
+								hpKElpYGTlNG
+								b250hpKEhIQG
+								TlNGb250HpSZ
+								HIQFWzI4Y10G
+								AAAAFAAAAP/+
+								SABlAGwAdgBl
+								AHQAaQBjAGEA
+								hAFmEZsAmwGb
+								AJsAhoaG
 								</data>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
 \pard\pardeftab720\sa361
@@ -6051,8 +5863,6 @@ Note}</string>
 									<string>ShapedGraphic</string>
 									<key>ID</key>
 									<integer>340</integer>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -6097,11 +5907,6 @@ Note}</string>
 									<string>Clip</string>
 									<key>FontInfo</key>
 									<dict>
-										<key>Color</key>
-										<dict>
-											<key>w</key>
-											<string>0</string>
-										</dict>
 										<key>Font</key>
 										<string>Courier</string>
 										<key>NSKern</key>
@@ -6114,10 +5919,8 @@ Note}</string>
 									<key>Link</key>
 									<dict>
 										<key>url</key>
-										<string>http://www.w3.org/TR/prov-o/</string>
+										<string>http://www.w3.org/TR/prov-dc/</string>
 									</dict>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -6186,11 +5989,6 @@ Note}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -6205,8 +6003,6 @@ Note}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -6230,8 +6026,8 @@ Note}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -6254,11 +6050,6 @@ http://www.w3.org/ns/prov-links}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica-Oblique</string>
 						<key>NSKern</key>
@@ -6268,8 +6059,6 @@ http://www.w3.org/ns/prov-links}</string>
 					</dict>
 					<key>ID</key>
 					<integer>344</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -6295,8 +6084,8 @@ http://www.w3.org/ns/prov-links}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
@@ -6342,8 +6131,6 @@ Additionally, the [OWL file for PROV-Links] is available for download.}</string>
 							<integer>346</integer>
 							<key>Rotation</key>
 							<real>270</real>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6367,8 +6154,8 @@ Additionally, the [OWL file for PROV-Links] is available for download.}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -6389,8 +6176,6 @@ Note}</string>
 							<integer>347</integer>
 							<key>ImageID</key>
 							<integer>1</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6421,11 +6206,6 @@ Note}</string>
 							<string>Resize</string>
 							<key>FontInfo</key>
 							<dict>
-								<key>Color</key>
-								<dict>
-									<key>w</key>
-									<string>0</string>
-								</dict>
 								<key>Font</key>
 								<string>Helvetica</string>
 								<key>NSKern</key>
@@ -6435,8 +6215,6 @@ Note}</string>
 							</dict>
 							<key>ID</key>
 							<integer>348</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6498,21 +6276,22 @@ Note}</string>
 								U3R5bGUAlIQE
 								Q0NAUwAAhISE
 								B05TQXJyYXkA
-								lJkAhoECAoQE
-								WzJmXYNmZpBB
-								JIaShJaWBk5T
-								Rm9udIaShISE
-								Bk5TRm9udB6U
-								mRyEBVsyOGNd
-								BgAAABQAAAD/
-								/kgAZQBsAHYA
-								ZQB0AGkAYwBh
-								AIQBZhGbAJsB
-								mwCbAIaGhg==
+								lJkAhoECCoQE
+								WzNmXYNmZpBB
+								JIPNzEw9hpKE
+								lpYGTlNGb250
+								hpKEhIQGTlNG
+								b250HpSZHIQF
+								WzI4Y10GAAAA
+								FAAAAP/+SABl
+								AGwAdgBlAHQA
+								aQBjAGEAhAFm
+								EZsAmwGbAJsA
+								hoaG
 								</data>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
 \pard\pardeftab720\sa361
@@ -6534,8 +6313,6 @@ Note}</string>
 									<string>ShapedGraphic</string>
 									<key>ID</key>
 									<integer>350</integer>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -6580,11 +6357,6 @@ Note}</string>
 									<string>Clip</string>
 									<key>FontInfo</key>
 									<dict>
-										<key>Color</key>
-										<dict>
-											<key>w</key>
-											<string>0</string>
-										</dict>
 										<key>Font</key>
 										<string>Courier</string>
 										<key>NSKern</key>
@@ -6597,10 +6369,8 @@ Note}</string>
 									<key>Link</key>
 									<dict>
 										<key>url</key>
-										<string>http://www.w3.org/TR/prov-o/</string>
+										<string>http://www.w3.org/TR/prov-links/</string>
 									</dict>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -6669,11 +6439,6 @@ Note}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -6688,8 +6453,6 @@ Note}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -6713,8 +6476,8 @@ Note}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -6737,11 +6500,6 @@ http://www.w3.org/ns/prov-dictionary}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica-Oblique</string>
 						<key>NSKern</key>
@@ -6751,8 +6509,6 @@ http://www.w3.org/ns/prov-dictionary}</string>
 					</dict>
 					<key>ID</key>
 					<integer>354</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -6778,8 +6534,8 @@ http://www.w3.org/ns/prov-dictionary}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
@@ -6825,8 +6581,6 @@ Additionally, the [OWL file for PROV-Dictionary] is available for download.}</st
 							<integer>356</integer>
 							<key>Rotation</key>
 							<real>270</real>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6850,8 +6604,8 @@ Additionally, the [OWL file for PROV-Dictionary] is available for download.}</st
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -6872,8 +6626,6 @@ Note}</string>
 							<integer>357</integer>
 							<key>ImageID</key>
 							<integer>1</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6904,11 +6656,6 @@ Note}</string>
 							<string>Resize</string>
 							<key>FontInfo</key>
 							<dict>
-								<key>Color</key>
-								<dict>
-									<key>w</key>
-									<string>0</string>
-								</dict>
 								<key>Font</key>
 								<string>Helvetica</string>
 								<key>NSKern</key>
@@ -6918,8 +6665,6 @@ Note}</string>
 							</dict>
 							<key>ID</key>
 							<integer>358</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -6979,21 +6724,22 @@ Note}</string>
 								U3R5bGUAlIQE
 								Q0NAUwAAhISE
 								B05TQXJyYXkA
-								lJkAhoECAoQE
-								WzJmXYNmZpBB
-								JIaShJaWBk5T
-								Rm9udIaShISE
-								Bk5TRm9udB6U
-								mRyEBVsyOGNd
-								BgAAABQAAAD/
-								/kgAZQBsAHYA
-								ZQB0AGkAYwBh
-								AIQBZhGbAJsB
-								mwCbAIaGhg==
+								lJkAhoECCoQE
+								WzNmXYNmZpBB
+								JIPNzEw9hpKE
+								lpYGTlNGb250
+								hpKEhIQGTlNG
+								b250HpSZHIQF
+								WzI4Y10GAAAA
+								FAAAAP/+SABl
+								AGwAdgBlAHQA
+								aQBjAGEAhAFm
+								EZsAmwGbAJsA
+								hoaG
 								</data>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
 \pard\pardeftab720\sa361
@@ -7015,8 +6761,6 @@ Note}</string>
 									<string>ShapedGraphic</string>
 									<key>ID</key>
 									<integer>360</integer>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -7061,11 +6805,6 @@ Note}</string>
 									<string>Clip</string>
 									<key>FontInfo</key>
 									<dict>
-										<key>Color</key>
-										<dict>
-											<key>w</key>
-											<string>0</string>
-										</dict>
 										<key>Font</key>
 										<string>Courier</string>
 										<key>NSKern</key>
@@ -7078,10 +6817,8 @@ Note}</string>
 									<key>Link</key>
 									<dict>
 										<key>url</key>
-										<string>http://www.w3.org/TR/prov-o/</string>
+										<string>http://www.w3.org/TR/prov-dictionary/</string>
 									</dict>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -7150,22 +6887,13 @@ Note}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>363</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7198,8 +6926,8 @@ Note}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \deftab720
 \pard\pardeftab720
@@ -7222,11 +6950,6 @@ Note}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -7241,8 +6964,6 @@ Note}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7264,8 +6985,8 @@ Note}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -7313,8 +7034,6 @@ http://www.w3.org/ns/prov-aq}</string>
 							<integer>366</integer>
 							<key>Rotation</key>
 							<real>270</real>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -7338,8 +7057,8 @@ http://www.w3.org/ns/prov-aq}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -7360,8 +7079,6 @@ Note}</string>
 							<integer>367</integer>
 							<key>ImageID</key>
 							<integer>1</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -7392,11 +7109,6 @@ Note}</string>
 							<string>Resize</string>
 							<key>FontInfo</key>
 							<dict>
-								<key>Color</key>
-								<dict>
-									<key>w</key>
-									<string>0</string>
-								</dict>
 								<key>Font</key>
 								<string>Helvetica</string>
 								<key>NSKern</key>
@@ -7406,8 +7118,6 @@ Note}</string>
 							</dict>
 							<key>ID</key>
 							<integer>368</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
 							<key>Style</key>
 							<dict>
 								<key>fill</key>
@@ -7470,21 +7180,21 @@ Note}</string>
 								lIQEQ0NAUwAA
 								hISEB05TQXJy
 								YXkAlJkAhoEC
-								AoQEWzJmXYNm
-								ZpBBJIaShJaW
-								Bk5TRm9udIaS
-								hISEBk5TRm9u
-								dB6UmRyEBVsy
-								OGNdBgAAABQA
-								AAD//kgAZQBs
-								AHYAZQB0AGkA
-								YwBhAIQBZhGb
-								AJsBmwCbAIaG
-								hg==
+								CoQEWzNmXYNm
+								ZpBBJIPNzEw9
+								hpKElpYGTlNG
+								b250hpKEhIQG
+								TlNGb250HpSZ
+								HIQFWzI4Y10G
+								AAAAFAAAAP/+
+								SABlAGwAdgBl
+								AHQAaQBjAGEA
+								hAFmEZsAmwGb
+								AJsAhoaG
 								</data>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
 \pard\pardeftab720\sa361
@@ -7506,8 +7216,6 @@ Note}</string>
 									<string>ShapedGraphic</string>
 									<key>ID</key>
 									<integer>370</integer>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -7552,11 +7260,6 @@ Note}</string>
 									<string>Clip</string>
 									<key>FontInfo</key>
 									<dict>
-										<key>Color</key>
-										<dict>
-											<key>w</key>
-											<string>0</string>
-										</dict>
 										<key>Font</key>
 										<string>Courier</string>
 										<key>NSKern</key>
@@ -7569,10 +7272,8 @@ Note}</string>
 									<key>Link</key>
 									<dict>
 										<key>url</key>
-										<string>http://www.w3.org/TR/prov-o/</string>
+										<string>http://www.w3.org/TR/prov-aq/</string>
 									</dict>
-									<key>Shape</key>
-									<string>Rectangle</string>
 									<key>Style</key>
 									<dict>
 										<key>fill</key>
@@ -7641,11 +7342,6 @@ Note}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica-Oblique</string>
 						<key>NSKern</key>
@@ -7655,8 +7351,6 @@ Note}</string>
 					</dict>
 					<key>ID</key>
 					<integer>373</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7689,8 +7383,8 @@ Note}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \deftab720
 \pard\pardeftab720
@@ -7713,22 +7407,13 @@ Note}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>374</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7761,8 +7446,8 @@ Note}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \deftab720
 \pard\pardeftab720
@@ -7784,11 +7469,6 @@ The OWL encoding of the PROV Ontology is available}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica-Oblique</string>
 						<key>NSKern</key>
@@ -7798,8 +7478,6 @@ The OWL encoding of the PROV Ontology is available}</string>
 					</dict>
 					<key>ID</key>
 					<integer>375</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7832,8 +7510,8 @@ The OWL encoding of the PROV Ontology is available}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \deftab720
 \pard\pardeftab720
@@ -7857,22 +7535,13 @@ The namespace for all PROV-O terms is}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>376</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7917,16 +7586,16 @@ The namespace for all PROV-O terms is}</string>
 						tbS0PoOdnBw/AYaShJaWEE5TUGFy
 						YWdyYXBoU3R5bGWGkoSEhBBOU1Bh
 						cmFncmFwaFN0eWxlAJSEBENDQFMA
-						AISEhAdOU0FycmF5AJSZAIaBAgKE
-						BFsyZl2DZmaQQSSGkoSWlgZOU0Zv
-						bnSGkoSEhAZOU0ZvbnQelJkchAVb
-						MjhjXQYAAAAUAAAA//5IAGUAbAB2
-						AGUAdABpAGMAYQCEAWYQmwCbAZsA
-						mwCGhoY=
+						AISEhAdOU0FycmF5AJSZAIaBAgqE
+						BFszZl2DZmaQQSSDzcxMPYaShJaW
+						Bk5TRm9udIaShISEBk5TRm9udB6U
+						mRyEBVsyOGNdBgAAABQAAAD//kgA
+						ZQBsAHYAZQB0AGkAYwBhAIQBZhCb
+						AJsBmwCbAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
 \pard\pardeftab720\sa361
@@ -7967,8 +7636,6 @@ The namespace for all PROV-O terms is}</string>
 					<integer>377</integer>
 					<key>Rotation</key>
 					<real>270</real>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7992,8 +7659,8 @@ The namespace for all PROV-O terms is}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -8007,7 +7674,7 @@ Recommendation}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{243.15156923889572, 85.754697084719666}, {35, 14}}</string>
+					<string>{{243.15156682750597, 85.7546979475797}, {35, 14}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -8043,8 +7710,6 @@ Recommendation}</string>
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>shadow</key>
@@ -8063,8 +7728,8 @@ Recommendation}</string>
 						<key>Pad</key>
 						<integer>3</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -8090,10 +7755,15 @@ html}</string>
 					<array>
 						<string>{222.32861328125, 106.26831733004553}</string>
 						<string>{286.65216064453131, 87.000000000000426}</string>
-						<string>{294.85521180392141, 114.98850114249946}</string>
+						<string>{294.85521180499057, 114.9885011461474}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>HeadArrow</key>
@@ -8123,11 +7793,6 @@ html}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -8142,8 +7807,6 @@ html}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8165,8 +7828,8 @@ html}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -8189,17 +7852,10 @@ http://www.w3.org/ns/prov#}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Georgia</string>
 						<key>NSKern</key>
 						<real>0.0</real>
-						<key>Size</key>
-						<real>16</real>
 					</dict>
 					<key>ID</key>
 					<integer>381</integer>
@@ -8208,8 +7864,6 @@ http://www.w3.org/ns/prov#}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8233,8 +7887,8 @@ http://www.w3.org/ns/prov#}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\slleading100\pardirnatural
 
@@ -8253,8 +7907,6 @@ http://www.w3.org/TR/prov-o/}</string>
 					<integer>382</integer>
 					<key>ImageID</key>
 					<integer>1</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8285,11 +7937,6 @@ http://www.w3.org/TR/prov-o/}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -8304,8 +7951,6 @@ http://www.w3.org/TR/prov-o/}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8327,8 +7972,8 @@ http://www.w3.org/TR/prov-o/}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -8351,11 +7996,6 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -8370,8 +8010,6 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8393,8 +8031,8 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fmodern\fcharset0 Courier;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
 
@@ -8413,8 +8051,6 @@ http://www.w3.org/ns/prov-o}</string>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
 					<integer>385</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8459,11 +8095,6 @@ http://www.w3.org/ns/prov-o}</string>
 					<string>Clip</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Courier</string>
 						<key>NSKern</key>
@@ -8482,8 +8113,6 @@ http://www.w3.org/ns/prov-o}</string>
 					<array>
 						<string>{0.40496477860073687, -0.49999999999999956}</string>
 					</array>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8576,19 +8205,21 @@ http://www.w3.org/ns/prov-o}</string>
 		<real>0.0</real>
 		<key>layoutEngine</key>
 		<string>dot</string>
+		<key>neatoLineLength</key>
+		<real>0.20000000298023224</real>
 		<key>neatoSeparation</key>
 		<real>0.0</real>
 		<key>twopiSeparation</key>
 		<real>0.0</real>
 	</dict>
 	<key>LinksVisible</key>
-	<string>NO</string>
+	<string>YES</string>
 	<key>MagnetsVisible</key>
 	<string>NO</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-02-11 17:23:20 +0000</string>
+	<string>2015-06-26 15:33:51 +0000</string>
 	<key>Modifier</key>
 	<string>Tim Lebo</string>
 	<key>NotesVisible</key>
@@ -8623,8 +8254,8 @@ http://www.w3.org/ns/prov-o}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
-			<string>int</string>
-			<string>0</string>
+			<string>coded</string>
+			<string>BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU051bWJlcgCEhAdOU1ZhbHVlAISECE5TT2JqZWN0AIWEASqEhAFxlwCG</string>
 		</array>
 		<key>NSRightMargin</key>
 		<array>
@@ -8661,27 +8292,20 @@ http://www.w3.org/ns/prov-o}</string>
 	<dict>
 		<key>CurrentSheet</key>
 		<integer>0</integer>
-		<key>ExpandedCanvases</key>
-		<array>
-			<dict>
-				<key>name</key>
-				<string>Canvas 1</string>
-			</dict>
-		</array>
+		<key>Expanded_Canvases</key>
+		<array/>
 		<key>Frame</key>
-		<string>{{1, 42}, {1437, 836}}</string>
-		<key>ListView</key>
+		<string>{{-0, 49}, {1597, 978}}</string>
+		<key>ShowInfo</key>
 		<true/>
-		<key>OutlineWidth</key>
-		<integer>142</integer>
-		<key>RightSidebar</key>
-		<false/>
 		<key>Sidebar</key>
 		<false/>
 		<key>SidebarWidth</key>
-		<integer>120</integer>
+		<integer>0</integer>
+		<key>TopSlabHeight</key>
+		<real>250</real>
 		<key>VisibleRegion</key>
-		<string>{{2, 435}, {1437, 742}}</string>
+		<string>{{1, 362}, {1299, 881}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
