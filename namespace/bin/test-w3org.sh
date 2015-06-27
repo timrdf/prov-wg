@@ -1,7 +1,8 @@
 #!/bin/bash
 
-if [ ! -d test ]; then
-   mkdir test
+w3c='w3c.org'
+if [ ! -d $w3c ]; then
+   mkdir $w3c
 fi
 
 function test_ns {
@@ -19,10 +20,10 @@ function test_ns {
    elif [ "$mime" == 'application/xml'     ]; then
       ext='xsd'; pad='    '
    fi
-   curl -sH "Accept: $mime" -L $url > test/$base.$ext
-   diffs=`diff --brief test/$base.$ext $goal`
+   curl -sH "Accept: $mime" -L $url > $w3c/$base.$ext
+   diffs=`diff --brief $w3c/$base.$ext $goal`
    if [ ${#diffs} -gt 0 ]; then
-      echo "FAIL: $mime $pad from $url does not match $goal (diff $goal test/$base.$ext)"
+      echo "FAIL: $mime $pad from $url does not match $goal (diff $goal $w3c/$base.$ext)"
    else
       echo "pass: $mime $pad from $url matches $goal"
    fi
