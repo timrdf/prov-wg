@@ -1,0 +1,17 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<prov-links.owl> 
+   prov:wasDerivedFrom <prov-links.ttl>;
+   prov:qualifiedDerivation [
+      a prov:Derivation;
+      prov:entity <prov-links.ttl>;
+      prov:hadActivity [
+         a prov:Activity;
+         prov:used <prov-links.ttl>, 
+                   [ a prov:Entity;
+                     prov:value "rapper -g -o rdfxml-abbrev prov-links.ttl > prov-links.owl";
+                   ];
+         prov:wasAssociatedWith [ a prov:Person ];
+      ];    
+   ];
+.
