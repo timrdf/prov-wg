@@ -6,7 +6,7 @@ fi
 
 function test_ns {
    mime="$1"
-   url="$2"
+    url="$2"
    goal="$3"
 
    base=`basename $url`
@@ -28,7 +28,7 @@ function test_ns {
    fi
 }
 
-#        mime                  url                        diff
+#        mime                 url                        diff
 test_ns 'text/turtle'         http://www.w3.org/ns/prov  releases/prov-20130430/prov.ttl
 test_ns 'application/rdf+xml' http://www.w3.org/ns/prov  releases/prov-20130430/prov.owl
 test_ns 'application/xml'     http://www.w3.org/ns/prov  prov.xsd
@@ -42,7 +42,9 @@ test_ns 'text/turtle'         http://www.w3.org/ns/prov-o-inverses  prov-o-inver
 test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-o-inverses  prov-o-inverses.owl
 echo
 
-# prov-aq
+test_ns 'text/turtle'         http://www.w3.org/ns/prov-aq  prov-aq.ttl
+test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-aq  prov-aq.owl
+echo
 
 test_ns 'text/turtle'         http://www.w3.org/ns/prov-dictionary  prov-dictionary.ttl
 test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-dictionary  prov-dictionary.owl
