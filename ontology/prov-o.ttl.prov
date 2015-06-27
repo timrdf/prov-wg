@@ -1,0 +1,17 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<prov-o.ttl> 
+   prov:wasDerivedFrom <ProvenanceOntology.owl>;
+   prov:qualifiedDerivation [
+      a prov:Derivation;
+      prov:entity <ProvenanceOntology.owl>;
+      prov:hadActivity [
+         a prov:Activity;
+         prov:used <ProvenanceOntology.owl>, 
+                   [ a prov:Entity;
+                     prov:value "rapper -g -o turtle ProvenanceOntology.owl > prov-o.ttl";
+                   ];
+         prov:wasAssociatedWith [ a prov:Person ];
+      ];    
+   ];
+.
