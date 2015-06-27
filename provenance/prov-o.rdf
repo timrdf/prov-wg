@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:geonames="http://www.geonames.org/ontology#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:wgs="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns="http://www.w3.org/2011/prov/provenance/prov-o#">
+  <prov:Organization rdf:about="http://dbpedia.org/page/University_of_Edinburgh">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+  </prov:Organization>
+  <foaf:Organization rdf:about="http://dbpedia.org/page/University_of_Manchester">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+    <foaf:homepage rdf:resource="http://www.manchester.ac.uk/"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#KhalidBelhajjame"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#StianSoilandReyes"/>
+    <foaf:name>University of Manchester</foaf:name>
+  </foaf:Organization>
+  <prov:Organization rdf:about="http://dbpedia.org/resource/Case_Western_Reserve_University">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <foaf:homepage rdf:resource="https://www.case.edu/"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#SatyaSahoo"/>
+    <foaf:name>Case Western Reserve University</foaf:name>
+    <foaf:page rdf:resource="http://en.wikipedia.org/wiki/Case_Western_Reserve_University"/>
+  </prov:Organization>
+  <prov:Organization rdf:about="http://dbpedia.org/resource/Oxford_university">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+  </prov:Organization>
+  <prov:Organization rdf:about="http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <rdfs:label>Rensselaer Polytechnic Institute</rdfs:label>
+    <prov:alternateOf rdf:resource="http://tw.rpi.edu/instances/RPIOrganization"/>
+  </prov:Organization>
+  <prov:Location rdf:about="http://dbpedia.org/resource/Spain"/>
+  <prov:Location rdf:about="http://dbpedia.org/resource/United_Kingdom">
+    <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+  </prov:Location>
+  <prov:Location rdf:about="http://dbpedia.org/resource/United_States"/>
+  <prov:Organization rdf:about="http://dbpedia.org/resource/University_of_Aberdeen">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+  </prov:Organization>
+  <foaf:Organization rdf:about="http://dbpedia.org/resource/W3c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+    <foaf:homepage rdf:resource="http://www.w3.org/"/>
+    <foaf:name>World Wide Web Consortium</foaf:name>
+  </foaf:Organization>
+  <rdf:Description rdf:about="http://semanticweb.org/wiki/Khalid_Belhajjame/#me">
+    <prov:alternateOf rdf:resource="http://data.semanticweb.org/person/khalid-belhajjame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tw.rpi.edu/instances/Deborah_L_McGuinness">
+    <prov:alternateOf rdf:resource="http://data.semanticweb.org/person/deborah-mcguinness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tw.rpi.edu/instances/TimLebo">
+    <prov:alternateOf rdf:resource="http://data.semanticweb.org/person/timothy-lebo"/>
+    <prov:alternateOf rdf:resource="http://purl.org/twc/id/person/TimLebo"/>
+  </rdf:Description>
+  <prov:Organization rdf:about="http://www.oeg-upm.net/#this">
+    <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/Spain"/>
+  </prov:Organization>
+  <prov:Organization rdf:about="http://www.w3.org/2011/prov">
+    <dcterms:isPartOf rdf:resource="http://dbpedia.org/resource/W3c"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+    <foaf:homePage rdf:resource="http://www.w3.org/2011/prov/wiki/Main_Page"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#DanielGarijo"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#DavidCorsar"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#DeborahMcGuinness"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#JamesCheney"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#JunZhao"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#KhalidBelahajjme"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#SatyaSahoo"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#StephanZednik"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#StianSoilandReyes"/>
+    <foaf:member rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#TimothyLebo"/>
+    <foaf:name>W3C Provenance Working Group</foaf:name>
+  </prov:Organization>
+  <rdf:Description rdf:about="http://www.w3.org/2011/prov/provenance/prov-o">
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/2011/prov/provenance/prov-family"/>
+  </rdf:Description>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#DanielGarijo">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://www.oeg-upm.net/#this"/>
+    <prov:specializationOf rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#DavidCorsar">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/resource/University_of_Aberdeen"/>
+    <prov:specializationOf rdf:resource="http://data.semanticweb.org/person/david-corsar"/>
+    <foaf:name>David Corsar</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#DeborahMcGuinness">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute"/>
+    <prov:specializationOf rdf:resource="http://tw.rpi.edu/instances/Deborah_L_McGuinness"/>
+    <foaf:name>Deborah McGuinness</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#JamesCheney">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/page/University_of_Edinburgh"/>
+    <prov:specializationOf rdf:resource="http://homepages.inf.ed.ac.uk/jcheney/#me"/>
+    <foaf:name>James Cheney</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#JunZhao">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/resource/Oxford_university"/>
+    <prov:specializationOf rdf:resource="http://users.ox.ac.uk/~zool0770/#me"/>
+    <foaf:name>Jun Zhao</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#KhalidBelhajjame">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/page/University_of_Manchester"/>
+    <prov:specializationOf rdf:resource="http://semanticweb.org/wiki/Khalid_Belhajjame/#me"/>
+    <foaf:holdsAccount rdf:resource="http://www.w3.org/2011/prov/wiki/User:kbelhajj"/>
+    <foaf:name xml:lang="en">Khalid Belhajjame</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#SatyaSahoo">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/resource/Case_Western_Reserve_University"/>
+    <prov:specializationOf rdf:resource="http://data.semanticweb.org/person/satya-sahoo"/>
+    <foaf:holdsAccount rdf:resource="http://www.w3.org/2011/prov/wiki/User:Ssahoo2"/>
+    <foaf:homepage rdf:resource="http://cci.case.edu/cci/index.php/Satya_Sahoo"/>
+    <foaf:name xml:lang="en">Satya Sahoo</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#StephanZednik">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute"/>
+    <prov:specializationOf rdf:resource="http://tw.rpi.edu/instances/StephanZednik"/>
+    <foaf:holdsAccount rdf:resource="http://www.w3.org/2011/prov/wiki/User:Szednik"/>
+    <foaf:name>Stephan Zednik</foaf:name>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#StianSoilandReyes">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/page/University_of_Manchester"/>
+    <prov:specializationOf rdf:resource="http://soiland-reyes.com/stian/#me"/>
+    <foaf:holdsAccount rdf:resource="http://www.w3.org/2011/prov/wiki/User:Ssoiland"/>
+    <foaf:homepage rdf:resource="http://soiland-reyes.com/stian/"/>
+    <foaf:name xml:lang="en">Stian Soiland-Reyes</foaf:name>
+    <foaf:page rdf:resource="http://soiland-reyes.com/stian/about/"/>
+    <foaf:weblog rdf:resource="http://soiland-reyes.com/stian/"/>
+    <foaf:workInfoHomepage rdf:resource="http://soiland-reyes.com/stian/work/"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.manchester.ac.uk/"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.mygrid.org.uk/"/>
+  </prov:Person>
+  <prov:Person rdf:about="http://www.w3.org/2011/prov/provenance/prov-o#TimothyLebo">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <prov:actedOnBehalfOf rdf:resource="http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute"/>
+    <prov:specializationOf rdf:resource="http://tw.rpi.edu/instances/TimLebo"/>
+    <foaf:holdsAccount rdf:resource="http://www.w3.org/2011/prov/wiki/User:Tlebo"/>
+    <foaf:name>Timothy Lebo</foaf:name>
+  </prov:Person>
+  <rdf:Description rdf:about="http://www.w3.org/TR/2013/REC-prov-o-20130430">
+    <prov:specializationOf rdf:resource="http://www.w3.org/TR/prov-o"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#DanielGarijo"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#DavidCorsar"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#DeborahMcGuinness"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#JamesCheney"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#JunZhao"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#KhalidBelahajjme"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#SatyaSahoo"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#StephanZednik"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#StianSoilandReyes"/>
+    <prov:wasAttributedTo rdf:resource="http://www.w3.org/2011/prov/provenance/prov-o#TimothyLebo"/>
+    <prov:wasInfluencedBy rdf:resource="http://www.w3.org/TR/2013/REC-prov-o-20130430/#acknowledgements"/>
+    <prov:wasRevisionOf rdf:resource="http://www.w3.org/TR/2013/PR-prov-o-20130312"/>
+  </rdf:Description>
+  <prov:Organization rdf:about="http://www.w3.org/TR/2013/REC-prov-o-20130430/#acknowledgements"/>
+  <prov:Entity rdf:about="http://www.w3.org/TR/prov-o"/>
+</rdf:RDF>
