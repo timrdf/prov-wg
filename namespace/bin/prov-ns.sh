@@ -11,13 +11,13 @@
    prev="prov-YYYYmmdd"
 version="prov-YYYYMMDD"
 
-if [ "$1" == "--help" ]; then
+if [[ "$1" == "--help" ]]; then
    echo "usage: `basename $0` [previous-version] [version]"
    echo
    echo "  previous-version e.g. prov-20121211 (default: $prev)"
    echo "           version e.g. prov-20130131 (default: $version)"
    exit
-elif [ $# -eq 2 ]; then
+elif [[ $# -eq 2 ]]; then
    prev=$1
    version=$2
 else
@@ -29,47 +29,36 @@ fi
 HOME=$(cd ${0%/*} && echo ${PWD%/*})
 
 release=$HOME/releases/$version/prov.owl
-if [ ! -e `dirname $release` ]; then
-   mkdir -p `dirname $release` 
-fi
+mkdir -p `dirname $release` 
 
-java -jar $HOME/lib/saxon9.jar $HOME/prov.owl $HOME/bin/prov-ns.xsl previous-version=$prev version=$version > $release
+java -jar $HOME/lib/saxon9.jar $HOME/prov.owl $HOME/bin/prov-ns.xsl "previous-version=$prev version=$version" > $release
 
-echo
+function representation_for {
+   ontology_uri="$1"
+   grep -A1 "$ontology_uri" bin/prov-ns.xsl | tail -1 | sed 's/^.*rdf:resource="//;s/".*$//;s/owl$/ttl/'
+}
+
 release=${release##`pwd`/}
-echo $release
-#echo ${release}.ttl
-#rapper -q -g -o turtle $release > ${release}.ttl
+echo && echo $release
 
 turtle=${release%.owl}.ttl
-echo $turtle
-echo "@prefix : <http://www.w3.org/ns/prov#> ."  > $turtle
-rapper -q -g -o turtle $HOME/prov.owl           >> $turtle
-perl -pi -e "s/prov-YYYYMMDD/$version/g"           $turtle
-perl -pi -e "s/prov-YYYYmmdd/$prev/g"              $turtle
-
-# $1: ontology URI
-# $2: ontology location
-function materialize_import { 
-   #echo "$turtle += $1"
-   echo "Including $1 from $2"
-   echo                                         >> $turtle
-   echo "# The following was imported from $1"  >> $turtle
-   echo                                         >> $turtle
-   curl -Ls $2 | grep -v "^@prefix"             >> $turtle
+echo && echo "$turtle << $release"
+echo "@prefix : <http://www.w3.org/ns/prov#> ."            > $turtle
+rapper -q  -g -o turtle $HOME/prov.owl                    >> $turtle
+perl   -pi -e "s/prov-YYYYMMDD/$version/g"                   $turtle
+perl   -pi -e "s/prov-YYYYmmdd/$prev/g"                      $turtle
+                                                                #
+function materialize_import {                                   #
+   ontology_uri="$1"                                            #
+   url=`representation_for $ontology_uri`                       #
+   echo "$turtle += $ontology_uri"                              #
+   echo "                                   $url"               #
+   echo                                                   >> $turtle
+   echo "# The following was imported from $ontology_uri" >> $turtle
+   echo                                                   >> $turtle
+   curl -Ls $url | grep -v "^@prefix"                     >> $turtle
 } 
 
-# NOTE: These ontology-source mappings need to be stated in bin/prov-ns.xsl, too.
-materialize_import 'http://www.w3.org/ns/prov-o#'          https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-o.ttl
-materialize_import 'http://www.w3.org/ns/prov-o-inverses#' https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-o-inverses.ttl
-materialize_import 'http://www.w3.org/ns/prov-aq#'         https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-aq.ttl
-materialize_import 'http://www.w3.org/ns/prov-dc#'         https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-dc.ttl
-materialize_import 'http://www.w3.org/ns/prov-dictionary#' https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-dictionary.ttl
-materialize_import 'http://www.w3.org/ns/prov-links#'      https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-links.ttl
-
-#prov-o.ttl
-#prov-o-inverses.ttl
-#prov-aq.ttl
-#prov-dc.ttl
-#prov-dictionary.ttl
-#prov-links.ttl
+for component in o o-inverses aq dc dictionary links; do
+   materialize_import "http://www.w3.org/ns/prov-$component#"
+done
