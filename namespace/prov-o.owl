@@ -24,7 +24,7 @@ If you wish to make comments regarding this document, please send them to public
         <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/prov-o/"/>
         <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov"/>
         <specializationOf rdf:resource="http://www.w3.org/ns/prov-o"/>
-        <wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-o-20120312"/>
+        <wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-o-20130312"/>
         <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
     </owl:Ontology>
     

@@ -1244,7 +1244,7 @@ If you wish to make comments regarding this document, please send them to public
     owl:versionIRI <http://www.w3.org/ns/prov-o-20130430> ;
     owl:versionInfo "Recommendation version 2013-04-30"@en ;
     :specializationOf <http://www.w3.org/ns/prov-o> ;
-    :wasRevisionOf <http://www.w3.org/ns/prov-o-20120312> .
+    :wasRevisionOf <http://www.w3.org/ns/prov-o-20130312> .
 
 []
     a owl:Axiom ;
