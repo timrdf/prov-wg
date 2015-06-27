@@ -56,7 +56,10 @@ test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-links  prov-links.owl
 test_ns 'application/xml'     http://www.w3.org/ns/prov-links  prov-links.xsd
 echo
 
+# http://www.w3.org/ns/prov-dc-directmappings.ttl and http://www.w3.org/ns/prov-dc-refinements.ttl
+
 test_ns 'text/turtle'         http://www.w3.org/2011/prov/provenance/prov-o ../provenance/prov-o.ttl
 test_ns 'application/rdf+xml' http://www.w3.org/2011/prov/provenance/prov-o ../provenance/prov-o.rdf
 echo
 
+# The rest of the provenance/ for the other 5+ components
