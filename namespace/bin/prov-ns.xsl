@@ -11,22 +11,28 @@
 
 <xsl:variable name="namespace" rdf:about="http://www.w3.org/ns/prov#">
    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-o#">
-      <prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-o.owl"/>
+      <prov:hadLocation rdf:resource="http://www.w3.org/ns/prov-o.owl"/>
+      <!--prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-o.owl"/-->
    </prov:wasDerivedFrom> 
    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-o-inverses#">
-      <prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-o-inverses.owl"/>
+      <prov:hadLocation rdf:resource="http://www.w3.org/ns/prov-o-inverses.owl"/>
+      <!--prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-o-inverses.owl"/-->
    </prov:wasDerivedFrom> 
    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-aq#">
-      <prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-aq.owl"/>
+      <prov:hadLocation rdf:resource="http://www.w3.org/ns/prov-aq.owl"/>
+      <!--prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-aq.owl"/-->
    </prov:wasDerivedFrom> 
    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-dc#">
-      <prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-dc.owl"/>
+      <prov:hadLocation rdf:resource="http://www.w3.org/ns/prov-dc.owl"/>
+      <!--prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-dc.owl"/-->
    </prov:wasDerivedFrom> 
    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-dictionary#">
-      <prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-dictionary.owl"/>
+      <prov:hadLocation rdf:resource="http://www.w3.org/ns/prov-dictionary.owl"/>
+      <!--prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-dictionary.owl"/-->
    </prov:wasDerivedFrom> 
    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-links#">
-      <prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-links.owl"/>
+      <prov:hadLocation rdf:resource="http://www.w3.org/ns/prov-links.owl"/>
+      <!--prov:hadLocation rdf:resource="https://dvcs.w3.org/hg/prov/raw-file/tip/namespace/prov-links.owl"/-->
    </prov:wasDerivedFrom> 
 </xsl:variable>
 
