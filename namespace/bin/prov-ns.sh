@@ -35,7 +35,7 @@ java -jar $HOME/lib/saxon9.jar $HOME/prov.owl $HOME/bin/prov-ns.xsl "previous-ve
 
 function representation_for {
    ontology_uri="$1"
-   grep -A1 "$ontology_uri" bin/prov-ns.xsl | tail -1 | sed 's/^.*rdf:resource="//;s/".*$//;s/owl$/ttl/'
+   grep -A1 "$ontology_uri" bin/prov-ns.xsl | grep -v '<!--' | tail -1 | sed 's/^.*rdf:resource="//;s/".*$//;s/owl$/ttl/'
 }
 
 release=${release##`pwd`/}
@@ -56,7 +56,7 @@ function materialize_import {                                   #
    echo                                                   >> $turtle
    echo "# The following was imported from $ontology_uri" >> $turtle
    echo                                                   >> $turtle
-   curl -Ls $url | grep -v "^@prefix"                     >> $turtle
+   curl -Ls $url | grep -v "^@prefix" | grep -v "^@base"  >> $turtle
 } 
 
 for component in o o-inverses aq dc dictionary links; do
