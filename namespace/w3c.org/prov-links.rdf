@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://www.w3.org/ns/prov-links#">
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-links#"/>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#asInBundle">
+    <rdfs:comment xml:lang="en">prov:asInBundle is used to specify which bundle the general entity of a prov:mentionOf property is described.
+
+When :x prov:mentionOf :y and :y is described in Bundle :b, the triple :x prov:asInBundle :b is also asserted to cite the Bundle in which :y was described.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-links#"/>
+    <rdfs:label>asInBundle</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Bundle"/>
+    <inverse>contextOf</inverse>
+    <sharesDefinitionWith rdf:resource="http://www.w3.org/ns/prov#mentionOf"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#mentionOf">
+    <rdfs:comment xml:lang="en">prov:mentionOf is used to specialize an entity as described in another bundle. It is to be used in conjuction with prov:asInBundle.
+
+prov:asInBundle is used to cite the Bundle in which the generalization was mentioned.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-links#"/>
+    <rdfs:label>mentionOf</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#specializationOf"/>
+    <inverse>hadMention</inverse>
+  </owl:ObjectProperty>
+  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-links#">
+    <rdfs:comment xml:lang="en">This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page). If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/
+). All feedback is welcome.</rdfs:comment>
+    <rdfs:label xml:lang="en">W3C PROV Linking Across Provenance Bundles Ontology (PROV-LINKS)</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/prov-links/"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-links-20130430"/>
+    <owl:versionInfo xml:lang="en">Working Group Note version 2013-04-30</owl:versionInfo>
+    <specializationOf rdf:resource="http://www.w3.org/ns/prov-links"/>
+  </owl:Ontology>
+</rdf:RDF>

@@ -1,0 +1,255 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+<http://www.w3.org/ns/prov-aq#>
+    a owl:Ontology ;
+    rdfs:comment "0.2"^^xsd:string, """This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page). 
+
+If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome."""@en ;
+    rdfs:label "PROV Access and Query Ontology"@en ;
+    rdfs:seeAlso <http://www.w3.org/TR/prov#>, <http://www.w3.org/TR/prov-aq/> ;
+    owl:versionIRI <http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/> .
+
+
+##prov-aq definitions
+ 
+
+:ServiceDescription
+    a owl:Class ;
+    rdfs:comment "Type for a generic provenance query service. Mainly for use in RDF provenance query service descriptions, to facilitate discovery in linked data environments." ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "ServiceDescription" ;
+    rdfs:subClassOf :SoftwareAgent ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/#provenance-query-service-discovery"^^xsd:anyURI ;
+    :category "access-and-query" .
+    
+:DirectQueryService
+    a owl:Class ;
+    rdfs:comment "Type for a generic provenance query service. Mainly for use in RDF provenance query service descriptions, to facilitate discovery in linked data environments." ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "ProvenanceService" ;
+    rdfs:subClassOf :SoftwareAgent ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/#provenance-query-service-discovery"^^xsd:anyURI ;
+    :category "access-and-query" .
+
+:has_anchor
+    a owl:ObjectProperty ;
+    rdfs:comment "Indicates anchor URI for a potentially dynamic resource instance."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "has_anchor" ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/#resource-represented-as-html"^^xsd:anyURI ;
+    :category "access-and-query" ;
+    :inverse "anchorOf" .
+
+:has_provenance
+    a owl:ObjectProperty ;
+    rdfs:comment "Indicates a provenance-URI for a resource; the resource identified by this property presents a provenance record about its subject or anchor resource."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "has_provenance" ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/#resource-represented-as-html"^^xsd:anyURI ;
+    :category "access-and-query" ;
+    :inverse "provenanceOf" .
+
+:has_query_service
+    a owl:ObjectProperty ;
+    rdfs:comment "Indicates a provenance query service that can access provenance related to its subject or anchor resource."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "hasProvenanceService" ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/"^^xsd:anyURI ;
+    :category "access-and-query" ;
+    :inverse "provenanceQueryServiceOf" .
+    
+:describesService
+    a owl:ObjectProperty ;
+    rdfs:comment "relates a generic provenance query service resource (type prov:ServiceDescription) to a specific query service description (e.g. a prov:DirectQueryService or a sd:Service)."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "describesService" ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/rovenance-query-service-description"^^xsd:anyURI ;
+    :category "access-and-query" ;
+    :inverse "serviceDescribedBy" .
+    
+
+:provenanceUriTemplate
+    a owl:DatatypeProperty ;
+    rdfs:comment "Relates a provenance service to a URI template string for constructing provenance-URIs."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "provenanceUriTemplate" ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/"^^xsd:anyURI ;
+    :category "access-and-query" .
+    
+:pingback
+    a owl:ObjectProperty ;
+    rdfs:comment "Relates a resource to a provenance pingback service that may receive additional provenance links about the resource."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "provenance pingback" ;
+    :aq "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/#provenance-pingback"^^xsd:anyURI ;
+    :category "access-and-query" .
+
+
+
+
+## Definitions from other ontologies
+rdfs:comment
+    a owl:AnnotationProperty ;
+    rdfs:comment ""@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> .
+
+rdfs:isDefinedBy
+    a owl:AnnotationProperty .
+
+rdfs:label
+    a owl:AnnotationProperty ;
+    rdfs:comment ""@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> .
+
+rdfs:seeAlso
+    a owl:AnnotationProperty ;
+    rdfs:comment ""@en .
+
+owl:Thing
+    a owl:Class .
+
+owl:topObjectProperty
+    a owl:ObjectProperty .
+
+owl:versionInfo
+    a owl:AnnotationProperty .
+
+<http://www.w3.org/ns/prov#>
+    a owl:Ontology .
+
+
+:SoftwareAgent
+    a owl:Class ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "SoftwareAgent" ;
+    rdfs:subClassOf owl:Thing ;
+    :category "expanded" ;
+    :component "agents-responsibility" ;
+    :definition "A software agent is running software."@en ;
+    :dm "http://www.w3.org/TR/2012/WD-prov-dm-20120703/prov-dm.html#term-agent"^^xsd:anyURI ;
+    :n "http://www.w3.org/TR/2012/WD-prov-dm-20120703/prov-n.html#expression-types"^^xsd:anyURI .
+
+:aq
+    a owl:AnnotationProperty ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:category
+    a owl:AnnotationProperty ;
+    rdfs:comment "Classify prov-o terms into three categories, including 'starting-point', 'qualifed', and 'extended'. This classification is used by the prov-o html document to gently introduce prov-o terms to its users. "@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> .
+
+:component
+    a owl:AnnotationProperty ;
+    rdfs:comment "Classify prov-o terms into six components according to prov-dm, including 'agents-responsibility', 'alternate', 'annotations', 'collections', 'derivations', and 'entities-activities'. This classification is used so that readers of prov-o specification can find its correspondence with the prov-dm specification."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> .
+
+:constraints
+    a owl:AnnotationProperty ;
+    rdfs:comment "A reference to the principal section of the PROV-CONSTRAINTS document that describes this concept."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:definition
+    a owl:AnnotationProperty ;
+    rdfs:comment "A definition quoted from PROV-DM or PROV-CONSTRAINTS that describes the concept expressed with this OWL term."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> .
+
+:dm
+    a owl:AnnotationProperty ;
+    rdfs:comment "A reference to the principal section of the PROV-DM document that describes this concept."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:editorialNote
+    a owl:AnnotationProperty ;
+    rdfs:comment "A note by the OWL development team about how this term expresses the PROV-DM concept, or how it should be used in context of semantic web or linked data."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> .
+
+:editorsDefinition
+    a owl:AnnotationProperty ;
+    rdfs:comment "When the prov-o term does not have a definition drawn from prov-dm, and the prov-o editor provides one."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf :definition .
+    
+:hadUsage
+    a owl:ObjectProperty ;
+    rdfs:comment "The _optional_ Usage involved in an Entity's Derivation."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "hadUsage" ;
+    :category "qualified" ;
+    :component "derivations" ;
+    :inverse "wasUsedInDerivation" ;
+    :sharesDefinitionWith :Usage .
+
+:inverse
+    a owl:AnnotationProperty ;
+    rdfs:comment "PROV-O does not define all property inverses. The directionalities defined in PROV-O should be given preference over those not defined. However, if users wish to name the inverse of a PROV-O property, the local name given by prov:inverse should be used."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:seeAlso <http://www.w3.org/TR/prov-o/#names-of-inverse-properties> .
+
+:n
+    a owl:AnnotationProperty ;
+    rdfs:comment "A reference to the principal section of the PROV-M document that describes this concept."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:qualifiedForm
+    a owl:AnnotationProperty ;
+    rdfs:comment """This annotation property links a subproperty of prov:wasInfluencedBy with the subclass of prov:Influence and the qualifying property that are used to qualify it. 
+
+Example annotation:
+
+    prov:wasGeneratedBy prov:qualifiedForm prov:qualifiedGeneration, prov:Generation .
+
+Then this unqualified assertion:
+
+    :entity1 prov:wasGeneratedBy :activity1 .
+
+can be qualified by adding:
+
+   :entity1 prov:qualifiedGeneration :entity1Gen .
+   :entity1Gen 
+       a prov:Generation, prov:Influence;
+       prov:activity :activity1;
+       :customValue 1337 .
+
+Note how the value of the unqualified influence (prov:wasGeneratedBy :activity1) is mirrored as the value of the prov:activity (or prov:entity, or prov:agent) property on the influence class."""@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:sharesDefinitionWith
+    a owl:AnnotationProperty ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:specializationOf
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:label "specializationOf" ;
+    rdfs:seeAlso :alternateOf ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    :category "expanded" ;
+    :component "alternate" ;
+    :constraints "http://www.w3.org/TR/2012/WD-prov-dm-20120703/prov-constraints.html#prov-dm-constraints-fig"^^xsd:anyURI ;
+    :definition "An entity that is a specialization of another shares all aspects of the latter, and additionally presents more specific aspects of the same thing as the latter. In particular, the lifetime of the entity being specialized contains that of any specialization. Examples of aspects include a time period, an abstraction, and a context associated with the entity."@en ;
+    :dm "http://www.w3.org/TR/2012/WD-prov-dm-20120703/prov-dm.html#term-specialization"^^xsd:anyURI ;
+    :inverse "generalizationOf" ;
+    :n "http://www.w3.org/TR/2012/WD-prov-dm-20120703/prov-n.html#expression-specialization"^^xsd:anyURI .
+
+:todo
+    a owl:AnnotationProperty .
+
+:unqualifiedForm
+    a owl:AnnotationProperty ;
+    rdfs:comment "Classes and properties used to qualify relationships are annotated with prov:unqualifiedForm to indicate the property used to assert an unqualified provenance relation."@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov#> ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+

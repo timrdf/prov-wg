@@ -1,0 +1,195 @@
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs:      <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix :         <http://www.w3.org/2011/prov/provenance/prov-o#> .
+
+<http://www.w3.org/TR/prov-o> a prov:Entity.
+
+<http://www.w3.org/TR/2013/REC-prov-o-20130430>
+  prov:specializationOf <http://www.w3.org/TR/prov-o>;
+  prov:wasRevisionOf    <http://www.w3.org/TR/2013/PR-prov-o-20130312>;
+  prov:wasAttributedTo  :TimothyLebo,
+                        :SatyaSahoo,
+                        :DeborahMcGuinness,
+
+                        :KhalidBelahajjme,
+                        :JamesCheney,
+                        :DavidCorsar,
+                        :StianSoilandReyes,
+                        :DanielGarijo,
+                        :StephanZednik,
+                        :JunZhao;
+  prov:wasAttributedTo  <http://www.w3.org/2011/prov>;
+  prov:wasInfluencedBy  <http://www.w3.org/TR/2013/REC-prov-o-20130430/#acknowledgements>;
+.
+
+<http://www.w3.org/2011/prov>
+   a prov:Organization, foaf:Group;
+   foaf:name "W3C Provenance Working Group";
+   foaf:homePage    <http://www.w3.org/2011/prov/wiki/Main_Page>;
+   dcterms:isPartOf <http://dbpedia.org/resource/W3c>;
+   foaf:member :TimothyLebo,
+               :SatyaSahoo,
+               :DeborahMcGuinness,
+
+               :KhalidBelahajjme,
+               :JamesCheney,
+               :DavidCorsar,
+               :StianSoilandReyes,
+               :DanielGarijo,
+               :StephanZednik,
+               :JunZhao;
+.
+<http://dbpedia.org/resource/W3c>
+   a foaf:Organization, prov:Organization;
+   foaf:name "World Wide Web Consortium";
+   foaf:homepage <http://www.w3.org/>;
+.
+
+<http://www.w3.org/TR/2013/REC-prov-o-20130430/#acknowledgements>
+   a prov:Organization;
+.
+
+:TimothyLebo
+   a prov:Person, foaf:Person;
+   foaf:name "Timothy Lebo";
+   foaf:holdsAccount     <http://www.w3.org/2011/prov/wiki/User:Tlebo>;
+   prov:actedOnBehalfOf  <http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute>;
+   prov:specializationOf <http://tw.rpi.edu/instances/TimLebo>;
+.
+<http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute>
+   a prov:Organization;
+   rdfs:label "Rensselaer Polytechnic Institute";
+   prov:alternateOf <http://tw.rpi.edu/instances/RPIOrganization>;
+   geonames:parentFeature <http://dbpedia.org/resource/United_States>;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+   prov:alternateOf <http://purl.org/twc/id/person/TimLebo>,
+                    <http://data.semanticweb.org/person/timothy-lebo>;
+.
+<http://dbpedia.org/resource/United_States> a prov:Location .
+
+:SatyaSahoo 
+   a prov:Person, foaf:Person;
+   foaf:name "Satya Sahoo"@en;
+   prov:actedOnBehalfOf <http://dbpedia.org/resource/Case_Western_Reserve_University>;
+   foaf:holdsAccount    <http://www.w3.org/2011/prov/wiki/User:Ssahoo2>;
+   foaf:homepage        <http://cci.case.edu/cci/index.php/Satya_Sahoo>;
+   prov:specializationOf <http://data.semanticweb.org/person/satya-sahoo>;
+.
+
+<http://dbpedia.org/resource/Case_Western_Reserve_University>
+   a prov:Organization;
+   foaf:name "Case Western Reserve University";
+   foaf:member :SatyaSahoo;
+   foaf:homepage <https://www.case.edu/>;
+   foaf:page     <http://en.wikipedia.org/wiki/Case_Western_Reserve_University>;
+   geonames:parentFeature <http://dbpedia.org/resource/United_States>;
+.
+
+:DeborahMcGuinness
+   a prov:Person, foaf:Person;
+   foaf:name "Deborah McGuinness";
+   prov:actedOnBehalfOf  <http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute>;
+   prov:specializationOf <http://tw.rpi.edu/instances/Deborah_L_McGuinness>;
+.
+<http://tw.rpi.edu/instances/Deborah_L_McGuinness>
+   prov:alternateOf <http://data.semanticweb.org/person/deborah-mcguinness>;
+.
+
+:DanielGarijo 
+   a prov:Person, foaf:Person;
+   prov:specializationOf <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+   prov:actedOnBehalfOf  <http://www.oeg-upm.net/#this>;
+.
+<http://www.oeg-upm.net/#this> 
+   a prov:Organization;
+   geonames:parentFeature <http://dbpedia.org/resource/Spain>;
+.
+<http://dbpedia.org/resource/Spain> a prov:Location .
+
+:KhalidBelhajjame 
+   a prov:Person, foaf:Person;
+   foaf:name "Khalid Belhajjame"@en;
+   foaf:holdsAccount     <http://www.w3.org/2011/prov/wiki/User:kbelhajj>;
+   prov:actedOnBehalfOf  <http://dbpedia.org/page/University_of_Manchester>;
+   prov:specializationOf <http://semanticweb.org/wiki/Khalid_Belhajjame/#me>;
+.
+<http://semanticweb.org/wiki/Khalid_Belhajjame/#me>
+   prov:alternateOf <http://data.semanticweb.org/person/khalid-belhajjame>;
+.
+
+:JamesCheney 
+   a prov:Person, foaf:Person;
+   foaf:name "James Cheney";
+   prov:specializationOf <http://homepages.inf.ed.ac.uk/jcheney/#me>;
+   prov:actedOnBehalfOf  <http://dbpedia.org/page/University_of_Edinburgh>;
+.
+<http://dbpedia.org/page/University_of_Edinburgh> 
+   a prov:Organization;
+   geonames:parentFeature <http://dbpedia.org/resource/United_Kingdom>;
+.
+
+:DavidCorsar
+   a prov:Person, foaf:Person;
+   foaf:name "David Corsar";
+   prov:actedOnBehalfOf  <http://dbpedia.org/resource/University_of_Aberdeen>;
+   prov:specializationOf <http://data.semanticweb.org/person/david-corsar>;
+.
+<http://dbpedia.org/resource/University_of_Aberdeen>
+   a prov:Organization;
+   geonames:parentFeature <http://dbpedia.org/resource/United_Kingdom>;
+.
+
+:StianSoilandReyes 
+   a prov:Person, foaf:Person;
+   foaf:name "Stian Soiland-Reyes"@en;
+   prov:actedOnBehalfOf   <http://dbpedia.org/page/University_of_Manchester>;
+   foaf:holdsAccount      <http://www.w3.org/2011/prov/wiki/User:Ssoiland>;
+   foaf:page              <http://soiland-reyes.com/stian/about/>;
+   foaf:homepage          <http://soiland-reyes.com/stian/>;
+   foaf:weblog            <http://soiland-reyes.com/stian/>;
+   foaf:workInfoHomepage  <http://soiland-reyes.com/stian/work/>;
+   foaf:workplaceHomepage <http://www.mygrid.org.uk/>, <http://www.manchester.ac.uk/>;
+   prov:specializationOf  <http://soiland-reyes.com/stian/#me>;
+.
+
+<http://dbpedia.org/page/University_of_Manchester> 
+   a foaf:Organization, prov:Organization;
+   foaf:name "University of Manchester";
+   foaf:member :StianSoilandReyes;
+   foaf:member :KhalidBelhajjame;
+   foaf:homepage <http://www.manchester.ac.uk/>;
+   geonames:parentFeature <http://dbpedia.org/resource/United_Kingdom>;
+.
+
+:StephanZednik
+   a prov:Person, foaf:Person;
+   foaf:name "Stephan Zednik";
+   prov:actedOnBehalfOf  <http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute>;
+   foaf:holdsAccount     <http://www.w3.org/2011/prov/wiki/User:Szednik>;
+   prov:specializationOf <http://tw.rpi.edu/instances/StephanZednik>;
+.
+
+:JunZhao
+   a prov:Person, foaf:Person;
+   foaf:name "Jun Zhao";
+   prov:actedOnBehalfOf  <http://dbpedia.org/resource/Oxford_university>;
+   prov:specializationOf <http://users.ox.ac.uk/~zool0770/#me>;
+.
+<http://users.ox.ac.uk/~zool0770/#me>;
+   prov:alternateOf <http://data.semanticweb.org/person/jun-zhao>;
+.
+<http://dbpedia.org/resource/Oxford_university>
+   a prov:Organization;
+   geonames:parentFeature <http://dbpedia.org/resource/United_Kingdom>;
+.
+<http://dbpedia.org/resource/United_Kingdom> a prov:Location, wgs:SpatialThing .
+
+
+<http://www.w3.org/2011/prov/provenance/prov-o>
+   rdfs:seeAlso <http://www.w3.org/2011/prov/provenance/prov-family>;
+.

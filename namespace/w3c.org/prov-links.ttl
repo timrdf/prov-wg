@@ -1,0 +1,50 @@
+@prefix : <http://www.w3.org/ns/prov-links#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+rdfs:comment a owl:AnnotationProperty .
+
+rdfs:isDefinedBy a owl:AnnotationProperty .
+
+rdfs:label a owl:AnnotationProperty .
+
+rdfs:seeAlso a owl:AnnotationProperty .
+
+owl:Thing a owl:Class .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+<http://www.w3.org/ns/prov#asInBundle> a owl:ObjectProperty ;
+    rdfs:label "asInBundle" ;
+    rdfs:comment """prov:asInBundle is used to specify which bundle the general entity of a prov:mentionOf property is described.
+
+When :x prov:mentionOf :y and :y is described in Bundle :b, the triple :x prov:asInBundle :b is also asserted to cite the Bundle in which :y was described."""@en ;
+    rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+    rdfs:isDefinedBy : ;
+    rdfs:range <http://www.w3.org/ns/prov#Bundle> ;
+    :inverse "contextOf" ;
+    :sharesDefinitionWith <http://www.w3.org/ns/prov#mentionOf> .
+
+<http://www.w3.org/ns/prov#mentionOf> a owl:ObjectProperty ;
+    rdfs:label "mentionOf" ;
+    rdfs:comment """prov:mentionOf is used to specialize an entity as described in another bundle. It is to be used in conjuction with prov:asInBundle.
+
+prov:asInBundle is used to cite the Bundle in which the generalization was mentioned."""@en ;
+    rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+    rdfs:isDefinedBy : ;
+    rdfs:range <http://www.w3.org/ns/prov#Entity> ;
+    rdfs:subPropertyOf <http://www.w3.org/ns/prov#specializationOf> ;
+    :inverse "hadMention" .
+
+: a owl:Ontology ;
+    rdfs:label "W3C PROV Linking Across Provenance Bundles Ontology (PROV-LINKS)"@en ;
+    rdfs:comment """This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page). If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/
+). All feedback is welcome."""@en ;
+    rdfs:seeAlso <http://www.w3.org/TR/prov-links/>,
+        <http://www.w3.org/ns/prov> ;
+    owl:imports <http://www.w3.org/ns/prov-o#> ;
+    owl:versionIRI <http://www.w3.org/ns/prov-links-20130430> ;
+    owl:versionInfo "Working Group Note version 2013-04-30"@en ;
+    :specializationOf <http://www.w3.org/ns/prov-links> .
+
+
