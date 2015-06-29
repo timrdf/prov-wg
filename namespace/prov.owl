@@ -14,7 +14,7 @@
 If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/
 Archives/Public/public-prov-comments/). All feedback is welcome.</rdfs:comment>
       <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-YYYYMMDD"/>
-      <wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-YYYYmmdd"/>
+      <prov:wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-YYYYmmdd"/>
       <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov"/>
       <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/prov-overview/"/>
 
