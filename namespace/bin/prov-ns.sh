@@ -22,8 +22,12 @@ elif [[ $# -eq 2 ]]; then
    version=$2
 else
    echo
-   echo "WARNING: using default version identifiers; see `basename $0` --help"
+   echo "NOTE: using version identifiers of last public release; see `basename $0` --help to override."
    echo
+   #$0 'prov-20121211' 'prov-20130312'
+   $0 'prov-20130312' 'prov-20130430'
+   #$0 'prov-20130430' 'prov-20150701'
+   exit
 fi
 
 HOME=$(cd ${0%/*} && echo ${PWD%/*})
@@ -31,7 +35,7 @@ HOME=$(cd ${0%/*} && echo ${PWD%/*})
 release=$HOME/releases/$version/prov.owl
 mkdir -p `dirname $release` 
 
-java -jar $HOME/lib/saxon9.jar $HOME/prov.owl $HOME/bin/prov-ns.xsl "previous-version=$prev version=$version" > $release
+java -jar $HOME/lib/saxon9.jar $HOME/prov.owl $HOME/bin/prov-ns.xsl 'previous-version'=$prev 'version'=$version > $release
 
 function representation_for {
    ontology_uri="$1"
