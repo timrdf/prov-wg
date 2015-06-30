@@ -4,13 +4,14 @@
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 
-<#> a owl:Ontology;
+<http://www.w3.org/ns/prov-o-inverses#> a owl:Ontology;
    owl:versionIRI        <http://www.w3.org/ns/prov-o-inverses-20130430>;
-   prov:wasRevisionOf    <http://www.w3.org/ns/prov-o-inverses-20120312>;
+   prov:wasRevisionOf    <http://www.w3.org/ns/prov-o-inverses-20130312>;
    prov:specializationOf <http://www.w3.org/ns/prov-o-inverses>;
    prov:wasDerivedFrom   <http://www.w3.org/ns/prov-o-20130430>;
    owl:imports           <http://www.w3.org/ns/prov-o#>;
-   rdfs:seeAlso          <http://www.w3.org/TR/prov-o/#names-of-inverse-properties> .
+   prov:alternateOf      <http://www.w3.org/TR/prov-o/#inverse-names-table>;
+   rdfs:seeAlso          <http://www.w3.org/TR/prov-o/#inverse-names> .
 
 prov:hadDelegate
    rdfs:label       "hadDelegate";

@@ -4,351 +4,352 @@
    xmlns:prov="http://www.w3.org/ns/prov#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xml:base="http://www.w3.org/ns/prov-o-inverses">
-  <rdf:Description rdf:about="prov#actedOnBehalfOf">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#actedOnBehalfOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#activity">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#activity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#activityOfInfluence">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#activityOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>activityOfInfluence</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#activity"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#activity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#agent">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#agent">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#agentOfInfluence">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#agentOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>agentOfInfluence</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#agent"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#agent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#alternateOf">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#alternateOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>alternateOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#alternateOf"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#alternateOf"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#atLocation">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#atLocation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#contributed">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#contributed">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>contributed</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasAttributedTo"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#ended">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#ended">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>ended</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasEndedBy"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasEndedBy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#entity">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#entityOfInfluence">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#entityOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>entityOfInfluence</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#entity"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#entity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#generalizationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#generalizationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>generalizationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#specializationOf"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#specializationOf"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#generated">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#generated">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>generated</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasGeneratedBy"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasGeneratedBy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#generatedAsDerivation">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#generatedAsDerivation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>generatedAsDerivation</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadGeneration"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadGeneration"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadActivity">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadActivity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadDelegate">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadDelegate">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>hadDelegate</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#actedOnBehalfOf"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadDerivation">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadDerivation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>hadDerivation</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasDerivedFrom"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadGeneration">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadGeneration">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadInfluence">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadInfluence">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>hadInfluence</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#influencer"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#influencer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadMember">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadMember">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadPlan">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadPlan">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadPrimarySource">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadPrimarySource">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadRevision">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadRevision">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>hadRevision</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasRevisionOf"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasRevisionOf"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadRole">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadRole">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#hadUsage">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#hadUsage">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#influenced">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#influenced">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>influenced</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasInfluencedBy"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#influencer">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#influencer">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#informed">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#informed">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>informed</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasInformedBy"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasInformedBy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#invalidated">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#invalidated">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>invalidated</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasInvalidatedBy"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasInvalidatedBy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#locationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#locationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>locationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#atLocation"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#atLocation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedAssociation">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAssociation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedAssociationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAssociationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedAssociationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedAssociation"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedAssociation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedAttribution">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAttribution">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedAttributionOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAttributionOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedAttributionOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedAttribution"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedAttribution"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedCommunication">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedCommunication">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedCommunicationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedCommunicationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedCommunicationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedCommunication"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedCommunication"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedDelegation">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedDelegation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedDelegationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedDelegationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedDelegationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedDelegation"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedDelegation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedDerivation">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedDerivation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedDerivationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedDerivationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedDerivationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedDerivation"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedDerivation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedEnd">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedEnd">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedEndOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedEndOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedEndOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedEnd"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedEnd"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedGeneration">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedGeneration">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedGenerationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedGenerationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedGenerationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedGeneration"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedGeneration"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedInfluence">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedInfluence">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedInfluenceOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedInfluenceOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedInfluenceOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedInfluence"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedInvalidation">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedInvalidation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedInvalidationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedInvalidationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedInvalidationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedInvalidation"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInvalidation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedPrimarySource">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedPrimarySource">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedQuotation">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedQuotation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedQuotationOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedQuotationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedQuotationOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedQuotation"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedQuotation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedRevision">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedRevision">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedSourceOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedSourceOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedSourceOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedPrimarySource"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedPrimarySource"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedStart">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedStart">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedStartOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedStartOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedStartOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedStart"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedStart"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedUsage">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedUsage">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#qualifiedUsingActivity">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedUsingActivity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>qualifiedUsingActivity</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedUsage"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedUsage"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#quotedAs">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#quotedAs">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>quotedAs</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasQuotedFrom"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasQuotedFrom"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#revisedEntity">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#revisedEntity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>revisedEntity</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#qualifiedRevision"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#qualifiedRevision"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#specializationOf">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#specializationOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#started">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#started">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>started</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasStartedBy"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasStartedBy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#used">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#used">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasActivityOfInfluence">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasActivityOfInfluence">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasActivityOfInfluence</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadActivity"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadActivity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasAssociateFor">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAssociateFor">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasAssociateFor</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#wasAssociatedWith"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasAssociatedWith"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasAssociatedWith">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasAttributedTo">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAttributedTo">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasDerivedFrom">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasEndedBy">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasEndedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasGeneratedBy">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasGeneratedBy</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#generated"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#generated"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasInfluencedBy">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasInfluencedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasInfluencedBy</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#influenced"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#influenced"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasInformedBy">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasInformedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasInvalidatedBy">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasInvalidatedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasInvalidatedBy</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#invalidated"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#invalidated"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasMemberOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasMemberOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasMemberOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadMember"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadMember"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasPlanOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasPlanOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasPlanOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadPlan"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadPlan"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasPrimarySourceOf">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasPrimarySourceOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasPrimarySourceOf</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadPrimarySource"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadPrimarySource"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasQuotedFrom">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasQuotedFrom">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasRevisionOf">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasRevisionOf">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasRoleIn">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasRoleIn">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasRoleIn</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadRole"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadRole"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasStartedBy">
-    <rdfs:isDefinedBy rdf:resource="prov-o#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasStartedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasUsedBy">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasUsedBy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasUsedBy</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#used"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#used"/>
   </rdf:Description>
-  <rdf:Description rdf:about="prov#wasUsedInDerivation">
-    <rdfs:isDefinedBy rdf:resource="#"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasUsedInDerivation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o-inverses#"/>
     <rdfs:label>wasUsedInDerivation</rdfs:label>
-    <owl:inverseOf rdf:resource="prov#hadUsage"/>
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#hadUsage"/>
   </rdf:Description>
-  <owl:Ontology rdf:about="#">
-    <rdfs:seeAlso rdf:resource="../TR/prov-o/#names-of-inverse-properties"/>
-    <owl:imports rdf:resource="prov-o#"/>
-    <owl:versionIRI rdf:resource="prov-o-inverses-20130430"/>
-    <prov:specializationOf rdf:resource=""/>
-    <prov:wasDerivedFrom rdf:resource="prov-o-20130430"/>
-    <prov:wasRevisionOf rdf:resource="prov-o-inverses-20120312"/>
+  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-o-inverses#">
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/prov-o/#inverse-names"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-o-inverses-20130430"/>
+    <prov:alternateOf rdf:resource="http://www.w3.org/TR/prov-o/#inverse-names-table"/>
+    <prov:specializationOf rdf:resource="http://www.w3.org/ns/prov-o-inverses"/>
+    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+    <prov:wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-o-inverses-20130312"/>
   </owl:Ontology>
 </rdf:RDF>
