@@ -27,7 +27,7 @@ function cp_if_diff() {
 pushd $PROV_WG &> /dev/null
    cp_if_diff                            "errata.html" \
               "$W3C_ERRATA_HOME/2011/prov/errata.html"
-   for ns in prov-links prov-aq; do
+   for ns in prov-links prov-aq prov-o-inverses; do
       for ext in ttl owl; do
          cp_if_diff       "namespace/$ns.$ext" \
                     "$W3C_NS_HOME/ns/$ns.$ext"
