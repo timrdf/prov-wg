@@ -1,21 +1,18 @@
 @prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms:    <http://purl.org/dc/terms/> .
-@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
-@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
 @prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
 @prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
 @prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
 @prefix oprov:      <http://openprovenance.org/ontology#> .
 @prefix hartigprov: <http://purl.org/net/provenance/ns#> .
-@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
 @prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
 @prefix conv:       <http://purl.org/twc/vocab/conversion/> .
-@prefix httphead:   <http://inference-web.org/registry/MPR/HTTP_1_1_HEAD.owl#> .
-@prefix httpget:    <http://inference-web.org/registry/MPR/HTTP_1_1_GET.owl#> .
-@prefix httppost:   <http://inference-web.org/registry/MPR/HTTP_1_1_POST.owl#> .
+@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
 @prefix prv:        <http://purl.org/net/provenance/ns#>.
-@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
 
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
 @prefix sioc:    <http://rdfs.org/sioc/ns#> .
@@ -37,116 +34,69 @@
    prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
 .
 
-<http://www.w3.org/2011/prov/errata.html>
-   a prov:Entity;
-.
-
-<http://www.w3.org/2011/prov/errata.html>
-   a prov:Entity;
-   dcterms:modified "2015-06-26T15:05:14"^^xsd:dateTime;
-.
-
-<http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce/path/d11b69af3ea82f27512785c764bb710c/errata.html>
-   a nfo:FileDataObject, prov:Entity;
-   prov:wasQuotedFrom      <http://www.w3.org/2011/prov/errata.html>;
-   prov:qualifiedQuotation <http://localhost/id/url/3b3aaa40a9e62ad7ec3985af6ab967d3/quoted/2015/06/26/T/11/09/05>;
-.
-<http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce/path/d11b69af3ea82f27512785c764bb710c/errata.html>
+<http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d/path/d11b69af3ea82f27512785c764bb710c/errata.html>
    a nfo:FileDataObject;
    nfo:fileName "errata.html";
-   dcterms:date "2015-06-26T11:09:06-04:00"^^xsd:dateTime;
-   nfo:hasHash     <http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce>; #<md5_5a06adbcd539eb8ce74540622278f9ce_time_1435331346>;
+   dcterms:date "2015-06-30T10:58:30-04:00"^^xsd:dateTime;
+   nfo:hasHash     <http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d>; #<md5_05fd8c90b18ee57335d24c6a3cb6b55d_time_1435676310>;
    prov:atLocation <http://localhost/id/path/d11b69af3ea82f27512785c764bb710c/errata.html>;
 .
-<http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce>
+<http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d>
    a nfo:FileHash; 
    nfo:hashAlgorithm "md5";
-   nfo:hashValue     "5a06adbcd539eb8ce74540622278f9ce";
+   nfo:hashValue     "05fd8c90b18ee57335d24c6a3cb6b55d";
 .
 <http://localhost/id/path/d11b69af3ea82f27512785c764bb710c/errata.html> prv:serializedBy <errata.html> .
 
-<nodeSetf1b99507-12d3-4a8d-bb28-790660b0ae34_content>
-   a pmlj:NodeSet;
-   pmlj:hasConclusion <http://localhost/id/md5/5a06adbcd539eb8ce74540622278f9ce/path/d11b69af3ea82f27512785c764bb710c/errata.html>;
-   pmlj:isConsequentOf <inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_content>;
+<http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d/path/d11b69af3ea82f27512785c764bb710c/errata.html>
+   a prov:Entity;
+   prv:serializedBy <errata.html>;
+   pml:wasGeneratedWithPlan <http#9be3bb0d-d251-4c82-a59f-012e162b9b67>;
 .
-<inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_content>
+<http#9be3bb0d-d251-4c82-a59f-012e162b9b67> a prov:Plan;
+  dcterms:date "2015-06-30T10:58:30-04:00"^^xsd:dateTime;
+  prov:specializationOf <http>;
+.
+<http> a prov:Plan .
+
+
+<http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d/path/d11b69af3ea82f27512785c764bb710c/errata.html> prov:wasDerivedFrom <http://www.w3.org/2011/prov/errata> .
+<http://www.w3.org/2011/prov/errata>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d/path/d11b69af3ea82f27512785c764bb710c/errata.html>
+   prov:wasDerivedFrom
+      <http://www.w3.org/2011/prov/errata> .
+
+<nodeSet/9be3bb0d-d251-4c82-a59f-012e162b9b67>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://localhost/id/md5/05fd8c90b18ee57335d24c6a3cb6b55d/path/d11b69af3ea82f27512785c764bb710c/errata.html>;
+   pmlj:isConsequentOf <inferenceStep/9be3bb0d-d251-4c82-a59f-012e162b9b67>;
+.
+<inferenceStep/9be3bb0d-d251-4c82-a59f-012e162b9b67>
    a pmlj:InferenceStep;
    pmlj:hasIndex 0;
-   pmlj:hasAntecedentList ();
-   pmlj:hasSourceUsage     <sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_content>;
-   pmlj:hasInferenceEngine conv:curl_md5_4f3049d5116d4fe276ba6b9cf772cd7c;
-   pmlj:hasInferenceRule   httpget:HTTP_1_1_GET;
+   rdfs:seeAlso <nodeSet9be3bb0d-d251-4c82-a59f-012e162b9b67_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet9be3bb0d-d251-4c82-a59f-012e162b9b67_antecedent> );
+   pmlj:hasInferenceEngine <http#9be3bb0d-d251-4c82-a59f-012e162b9b67>;
+   pmlj:hasInferenceRule   <http>;
    oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
    hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
 .
 
-<http://localhost/id/url/3b3aaa40a9e62ad7ec3985af6ab967d3/quoted/2015/06/26/T/11/09/05>
-   a prov:Quotation;
-   prov:entity <http://www.w3.org/2011/prov/errata.html>;
-   prov:atTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
-.
-
-
-<wasControlledByf1b99507-12d3-4a8d-bb28-790660b0ae34_content>
+<wasControlled/9be3bb0d-d251-4c82-a59f-012e162b9b67>
    a oprov:WasControlledBy;
    oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
-   oprov:effect <inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_content>;
-   oprov:endTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
+   oprov:effect <inferenceStep/9be3bb0d-d251-4c82-a59f-012e162b9b67>;
+   oprov:endTime "2015-06-30T10:58:30-04:00"^^xsd:dateTime;
 .
- 
-<infof1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
-   a prov:Entity, conv:HTTPHeader;
-   prov:value """HTTP/1.1 200 OK
-Date: Fri, 26 Jun 2015 15:08:58 GMT
-Server: Apache/2
-Last-Modified: Fri, 26 Jun 2015 15:05:14 GMT
-ETag: "3c81-5196d112f5e80"
-Accept-Ranges: bytes
-Content-Length: 15489
-Cache-Control: max-age=21600
-Expires: Fri, 26 Jun 2015 21:08:58 GMT
-P3P: policyref="http://www.w3.org/2014/08/p3p.xml"
-Content-Type: text/html; charset=utf-8
-""";
-   pmlp:hasReferenceSourceUsage <sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
-.
- 
-<nodeSetf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
+<nodeSet9be3bb0d-d251-4c82-a59f-012e162b9b67_antecedent>
    a pmlj:NodeSet;
-   pmlj:hasConclusion <infof1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
-   pmlj:isConsequentOf <inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
-.
-<inferenceStepf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
-   a pmlj:InferenceStep;
-   pmlj:hasIndex 0;
-   pmlj:hasAntecedentList ();
-   pmlj:hasSourceUsage     <sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
-   pmlj:hasInferenceEngine conv:curl_md5_4f3049d5116d4fe276ba6b9cf772cd7c;
-   pmlj:hasInferenceRule   httphead:HTTP_1_1_HEAD;
-   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
-   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   pmlj:hasConclusion <http://www.w3.org/2011/prov/errata>;
 .
 
-<sourceUsagef1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
-   a pmlp:SourceUsage;
-   pmlp:hasSource        <http://www.w3.org/2011/prov/errata.html>;
-   pmlp:hasUsageDateTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
-.
-<wasControlledByf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>
-   a oprov:WasControlledBy;
-   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
-   oprov:effect <nodeSetf1b99507-12d3-4a8d-bb28-790660b0ae34_url_header>;
-   oprov:endTime "2015-06-26T11:09:05-04:00"^^xsd:dateTime;
+<http#9be3bb0d-d251-4c82-a59f-012e162b9b67>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http#9be3bb0d-d251-4c82-a59f-012e162b9b67";
 .
 
-
-conv:curl_md5_4f3049d5116d4fe276ba6b9cf772cd7c
-   a prov:Agent, pmlp:InferenceEngine, conv:Curl;
-   dcterms:identifier "md5_4f3049d5116d4fe276ba6b9cf772cd7c";
-   dcterms:description """curl 7.37.1 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
-Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp 
-Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz """;
-.
-
-conv:Curl rdfs:subClassOf pmlp:InferenceEngine .

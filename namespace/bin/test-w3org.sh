@@ -24,11 +24,13 @@ function test_ns {
    ext='unk'
    pad=''
    if [   "$mime" == 'text/turtle'         ]; then
-      ext='ttl'; pad='        '
+      ext='ttl';  pad='        '
    elif [ "$mime" == 'application/rdf+xml' ]; then
-      ext='rdf'; pad=''
+      ext='rdf';  pad=''
    elif [ "$mime" == 'application/xml'     ]; then
-      ext='xsd'; pad='    '
+      ext='xsd';  pad='    '
+   elif [ "$mime" == 'text/html'     ]; then
+      ext='html'; pad='          '
    fi
    curl -sH "Accept: $mime" -L $url > $w3c/$base.$ext
    diffs=`diff --brief $w3c/$base.$ext $expectation`
@@ -40,7 +42,10 @@ function test_ns {
 }
 
 pushd $PROV_NS &> /dev/null
-   #        mime                 url                        expectation
+   #        mime                 url                                expectation
+   test_ns 'text/html'           http://www.w3.org/2011/prov/errata ../errata.html
+   echo
+
    test_ns 'text/turtle'         http://www.w3.org/ns/prov  releases/prov-20130430/prov.ttl
    test_ns 'application/rdf+xml' http://www.w3.org/ns/prov  releases/prov-20130430/prov.owl
    test_ns 'application/xml'     http://www.w3.org/ns/prov  prov.xsd
