@@ -3,15 +3,13 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-   xmlns="http://www.w3.org/ns/prov-links#">
+   xmlns="http://www.w3.org/ns/prov#">
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
   <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
   <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
-  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-links#"/>
   <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#asInBundle">
     <rdfs:comment xml:lang="en">prov:asInBundle is used to specify which bundle the general entity of a prov:mentionOf property is described.
 
