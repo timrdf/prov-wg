@@ -24,8 +24,8 @@ else
    echo
    echo "NOTE: using version identifiers of last public release; see `basename $0` --help to override."
    echo
-   #$0 'prov-20121211' 'prov-20130312'
-   $0 'prov-20130312' 'prov-20130430'
+   #$0 'prov-20121211' 'prov-20130312' # Proposed Recommendation
+   $0 'prov-20130312' 'prov-20130430'  # Recommendation
    #$0 'prov-20130430' 'prov-20150701'
    exit
 fi
