@@ -46,7 +46,7 @@ release=${release##`pwd`/}
 echo && echo $release
 
 turtle=${release%.owl}.ttl
-echo && echo "$turtle << $release"
+echo && echo "$turtle << ${HOME##$PWD}prov.owl"
 echo "@prefix : <http://www.w3.org/ns/prov#> ."            > $turtle
 rapper -q  -g -o turtle $HOME/prov.owl                    >> $turtle
 perl   -pi -e "s/prov-YYYYMMDD/$version/g"                   $turtle

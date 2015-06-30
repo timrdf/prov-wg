@@ -1,4 +1,8 @@
-<!-- Timothy Lebo -->
+<!-- 
+#3> <> prov:specializationOf <https://github.com/timrdf/prov-wg/blob/master/namespace/prov.owl>;
+#3>    rdfs:seeAlso <https://github.com/timrdf/prov-wg/wiki/Post-WG-PROV-namespace-update-process#how-the-aggregate-owl-file-is-generated>;
+#3> .
+-->
 <xsl:transform version="2.0" 
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -42,6 +46,7 @@
    <xsl:copy>
       <xsl:apply-templates select="*"/>
       <xsl:for-each select="owl:Ontology[@rdf:about='http://www.w3.org/ns/prov#']/prov:wasDerivedFrom/@rdf:resource">
+         <!-- https://github.com/timrdf/prov-wg/blob/master/namespace/prov.owl#L21 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
          <xsl:value-of select="concat($NL,$NL,$NL,$NL,$NL,'   ')"/>
          <owl:Ontology rdf:about="{.}"/>
          <xsl:variable name="location" select="key('locations',.,$namespace)/@rdf:resource"/>
@@ -52,17 +57,19 @@
          </xsl:comment>
          <xsl:value-of select="concat($NL,$NL,'   ')"/>
          <xsl:variable name="import" select="doc($location)"/>
-         <xsl:message select="concat('   Found ',count($import/rdf:RDF/*),' rdf root elements')"/>
+         <xsl:message select="concat('   Copying ',count($import/rdf:RDF/*),' elements')"/>
          <xsl:apply-templates select="$import/rdf:RDF/*"/>
          <xsl:value-of select="$NL"/>
       </xsl:for-each>
    </xsl:copy>
 </xsl:template>
 
+<!-- Changes https://github.com/timrdf/prov-wg/blob/master/namespace/prov.owl#L16 -->
 <xsl:template match="owl:versionIRI[../@rdf:about='http://www.w3.org/ns/prov#']">
    <owl:versionIRI rdf:resource="{replace(@rdf:resource,'prov-YYYYMMDD',$version)}"/>
 </xsl:template>
 
+<!-- Changes https://github.com/timrdf/prov-wg/blob/master/namespace/prov.owl#L17 -->
 <xsl:template match="prov:wasRevisionOf[../@rdf:about='http://www.w3.org/ns/prov#']">
    <prov:wasRevisionOf rdf:resource="{replace(@rdf:resource,'prov-YYYYmmdd',$previous-version)}"/>
 </xsl:template>
