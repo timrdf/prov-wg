@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://www.w3.org/ns/prov-dc#">
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Accept">
+    <rdfs:label xml:lang="en">Accept</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the acceptance of a resource (e.g., an article in a conference)</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Contribute">
+    <rdfs:label xml:lang="en">Contribute
+</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies any contribution of an agent to a resource. </prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Contributor">
+    <rdfs:label xml:lang="en">Contributor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+    <prov:definition xml:lang="en">Role with the function of having responsibility for making contributions to a resource. The Agent assigned to this role is associated with a Modify or Create Activities</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Copyright">
+    <rdfs:label xml:lang="en">Copyright</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the Copyrighting activity associated to a resource.</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Create">
+    <rdfs:label xml:lang="en">Create</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Contribute"/>
+    <prov:definition xml:lang="en">Activity that identifies the creation of a resource</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Creator">
+    <rdfs:label xml:lang="en">Creator</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Contributor"/>
+    <prov:definition xml:lang="en">Role with the function of creating a resource. The Agent assigned to this role is associated with a Create Activity</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Modify">
+    <rdfs:label xml:lang="en">Modify</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the modification of a resource. </prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Publish">
+    <rdfs:label xml:lang="en">Publish</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the publication of a resource</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Publisher">
+    <rdfs:label xml:lang="en">Publisher</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+    <prov:definition xml:lang="en">Role with the function of publishing a resource. The Agent assigned to this role is associated with a Publish Activity</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Replace">
+    <rdfs:label xml:lang="en">Replace</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the replacement of a resource.</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#RightsAssignment">
+    <rdfs:label xml:lang="en">RightsAssignment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the rights assignment of a resource.</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#RightsHolder">
+    <rdfs:label xml:lang="en">RightsHolder</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+    <prov:definition xml:lang="en">Role with the function of owning or managing rights over a resource. The Agent assigned to this role is associated with a RightsAssignment Activity</prov:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/prov#Submit">
+    <rdfs:label xml:lang="en">Submit</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:definition xml:lang="en">Activity that identifies the issuance (e.g., publication) of a resource. </prov:definition>
+  </owl:Class>
+  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-dc#">
+    <rdfs:comment xml:lang="en">This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page). 
+
+If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome.</rdfs:comment>
+    <rdfs:label xml:lang="en">Dublin Core extensions of the W3C PROVenance Interchange Ontology (PROV-O) </rdfs:label>
+    <owl:imports rdf:resource="http://www.w3.org/ns/prov-o#"/>
+  </owl:Ontology>
+</rdf:RDF>
