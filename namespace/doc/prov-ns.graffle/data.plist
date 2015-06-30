@@ -8483,9 +8483,9 @@ ttl}</string>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{265, 49}, {1414, 978}}</string>
+		<string>{{229, 49}, {1450, 978}}</string>
 		<key>ShowInfo</key>
-		<true/>
+		<false/>
 		<key>Sidebar</key>
 		<false/>
 		<key>SidebarWidth</key>
@@ -8493,7 +8493,7 @@ ttl}</string>
 		<key>TopSlabHeight</key>
 		<real>250</real>
 		<key>VisibleRegion</key>
-		<string>{{0.95238095238095244, 403.33333333333331}, {1062.8571428571429, 839.04761904761926}}</string>
+		<string>{{0.95238095238095244, 379.52380952380952}, {1380, 839.04761904761915}}</string>
 		<key>Zoom</key>
 		<real>1.05</real>
 		<key>ZoomValues</key>
