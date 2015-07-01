@@ -176,7 +176,7 @@ p.description {
       <dd><a href="http://www.w3.org/TR/prov-o/">http://www.w3.org/TR/prov-o/</a></dd>
     </dl>
     <div id="o-1" class="entry">
-      <h3>Error o-1, wrong namespace for xsd</h3>
+      <h3><a href="#o-1">Error o-1</a>, wrong namespace for xsd</h3>
       <p>in <a href="http://www.w3.org/TR/2013/REC-prov-o-20130430/#namespaces">Section
           1.3</a>, in the table on namespaces: <span class="diff-del">http://www.w3.org/2000/10/XMLSchema#</span>
         <span class="diff-add">http://www.w3.org/2001/XMLSchema#"</span></p>
@@ -184,26 +184,43 @@ p.description {
           error report</a>.</p>
     </div>
     <div id="o-2" class="entry">
-      <h3>Error o-2, typo/misspelling in Example 1</h3>
+      <h3><a href="#o-2">Error o-2</a>, typo/misspelling in Example 1</h3>
       <p>in <a href="http://www.w3.org/TR/prov-o/#narrative-example-simple-1">
           Example 1</a>, the Agent named <span class="diff-del">:natonal_newspaper_inc</span> should be spelled
         <span class="diff-add">:national_newspaper_inc"</span>.</p>
       <!--p>See <a href="">original error report</a>.</p-->
     </div>
     <div id="o-3" class="entry">
-      <h3>Error o-3, outdated link to PROV-Overview</h3>
+      <h3><a href="#o-3">Error o-3</a>, outdated link to PROV-Overview</h3>
       <p>in <a href="http://www.w3.org/TR/prov-o/#abstract">
           Abstract</a>, the link to "PROV Document Overview" points to an older draft <span class="diff-del">http://www.w3.org/TR/2012/WD-prov-overview-20121211/</span> and should instead <span class="diff-add">http://www.w3.org/TR/2013/NOTE-prov-overview-20130430/</span>.</p>
       <!--p>See <a href="">original error report</a>.</p-->
     </div>
+
     <div id="o-4" class="entry">
-      <h3>Error o-4, incorrect subproperty assertion for prov:hadMember</h3>
+      <h3><a href="#o-4">Error o-4</a>, incorrect subproperty assertion for prov:hadMember</h3>
       <p>in <a href="http://www.w3.org/TR/prov-o/#hadMember">(29) Property: prov:hadMember</a>,
        prov:hadMember is incorrectly asserted to be a subproperty of prov:wasInfluencedBy. 
       <span class="diff-del">has super-properties prov:wasInfluencedBy</span>
       <!-- and should instead <span class="diff-add">http://www.w3.org/TR/2013/NOTE-prov-overview-20130430/</span>.-->
       <p>See <a href="http://www.w3.org/mid/C0F083F7-3D6E-4744-9E81-29D9C035C140@inf.ed.ac.uk">original error report</a>.</p>
     </div>
+
+    <div id="o-5" class="entry">
+      <h3><a href="#o-5">Error o-5</a>, generation and invalidation time properties have no equivalent in prov-dm</h3>
+      <p>in <a href="http://www.w3.org/TR/prov-o/#generatedAtTime">(22) Property: prov:generatedAtTime</a> and
+         in <a href="http://www.w3.org/TR/prov-o/#invalidatedAtTime">(27) Property: prov:invalidatedAtTime</a>,
+       prov:generatedAtTime and prov:invalidatedAtTime properties should not be defined because they have no 
+       equivalent in prov-dm and thus no equivalent in other PROV serializations.</p>
+      <p><span class="diff-del">(22) Property: prov:generatedAtTime</span></p>
+      <p><span class="diff-del">IRI:http://www.w3.org/ns/prov#generatedAtTime</span></p>
+      <p><span class="diff-del">(27) Property: prov:invalidatedAtTime</span></p>
+      <p><span class="diff-del">IRI:http://www.w3.org/ns/prov#invalidatedAtTime</span></p>
+      <!-- and should instead <span class="diff-add">http://www.w3.org/TR/2013/NOTE-prov-overview-20130430/</span>.-->
+      <!--p>See <a href="http://www.w3.org/mid/C0F083F7-3D6E-4744-9E81-29D9C035C140@inf.ed.ac.uk">original error report</a>.</p-->
+    </div>
+
+
     <h2 class="document" id="prov-dm">Errata for <a href="http://www.w3.org/TR/2013/REC-prov-dm-20130430/">PROV-DM
         </a></h2>
     <dl>
@@ -213,7 +230,7 @@ p.description {
       <dd><a href="http://www.w3.org/TR/prov-dm/">http://www.w3.org/TR/prov-dm/</a></dd>
     </dl>
     <div id="dm-1" class="entry">
-      <h3>Error dm-1, wrong namespace for xsd</h3>
+      <h3><a href="#dm-1">Error dm-1</a>, wrong namespace for xsd</h3>
       <p>in <a href="http://www.w3.org/TR/2013/REC-prov-dm-20130430/Overview.html#namespaces">Section
           1.4</a>, in the table on namespaces: <span class="diff-del">http://www.w3.org/2000/10/XMLSchema#</span>
         <span class="diff-add">http://www.w3.org/2001/XMLSchema#"</span></p>
@@ -229,7 +246,7 @@ p.description {
       <dd><a href="http://www.w3.org/TR/prov-n/">http://www.w3.org/TR/prov-n/</a></dd>
     </dl>
     <div id="n-1" class="entry">
-      <h3>Error n-1, wrong namespace for xsd</h3>
+      <h3><a href="#n-1">Error n-1</a>, wrong namespace for xsd</h3>
       <p>in <a href="http://www.w3.org/TR/2013/REC-prov-n-20130430/#namespace-table">Section
           1.4</a>, in the table on namespaces: <span class="diff-del">http://www.w3.org/2000/10/XMLSchema#</span>
         <span class="diff-add">http://www.w3.org/2001/XMLSchema#"</span></p>
@@ -310,6 +327,6 @@ p.description {
       <a href="http://www.ercim.org/" shape="rect"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
       <a href="http://www.keio.ac.jp/" shape="rect">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>),
       All Rights Reserved.</p>
-    <p>$Id: errata.html,v 1.7 2015/06/30 09:53:40 ivan Exp $</p>
+    <p>$Id: errata.html,v 1.8 2015/07/01 09:38:56 ivan Exp $</p>
   </body>
 </html>
