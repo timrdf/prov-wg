@@ -12,7 +12,7 @@
 
 If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome."""@en ;
     rdfs:label "PROV Access and Query Ontology"@en ;
-    rdfs:seeAlso <http://www.w3.org/TR/prov#>, <http://www.w3.org/TR/prov-aq/> ;
+    rdfs:seeAlso <http://www.w3.org/ns/prov#>, <http://www.w3.org/TR/prov-aq/> ;
     owl:versionIRI <http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/> .
 
 
