@@ -1,0 +1,40 @@
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+ 
+ dct:created         rdfs:subPropertyOf        prov:generatedAtTime .
+ dct:creator         rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:contributor     rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:dateAccepted    rdfs:subPropertyOf        prov:generatedAtTime .
+ dct:dateCopyRighted rdfs:subPropertyOf        prov:generatedAtTime .
+ dct:dateSubmitted   rdfs:subPropertyOf        prov:generatedAtTime .
+ dct:hasFormat       rdfs:subPropertyOf        prov:alternateOf .
+ dct:isFormatOf      rdfs:subPropertyOf        prov:alternateOf, prov:wasDerivedFrom .
+ dct:issued          rdfs:subPropertyOf    	   prov:generatedAtTime .
+ dct:modified        rdfs:subPropertyOf        prov:generatedAtTime .
+ dct:publisher       rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:rightsHolder    rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:source          rdfs:subPropertyOf        prov:wasDerivedFrom .
+ 
+ dct:Agent                  owl:equivalentClass   prov:Agent .
+ dct:BibliographicResource  rdfs:subClassOf       prov:Entity .   
+ dct:LicenseDocument        rdfs:subClassOf       prov:Entity .
+ dct:LinguisticSystem       rdfs:subClassOf       prov:Plan .
+ dct:Location               owl:equivalentClass   prov:Location .
+ dct:MethodOfAccrual        rdfs:subClassOf       prov:Plan .
+ dct:MethodOfInstruction    rdfs:subClassOf       prov:Plan .
+ dct:RightsStatement        rdfs:subClassOf       prov:Entity .
+ dct:PhysicalResource       rdfs:subClassOf       prov:Entity .
+ dct:Policy                 rdfs:subClassOf       prov:Plan .
+ dct:ProvenanceStatement    rdfs:subClassOf       prov:Bundle .
+ 
+  prov:hadPrimarySource rdfs:subPropertyOf dct:source .
+  prov:wasRevisionOf    rdfs:subPropertyOf dct:isVersionOf .
+  
+  prov:Location         owl:subClassOf     dct:LocationPeriodOrJurisdiction .
+  
+  dct:hasFormat       rdfs:subPropertyOf 	prov:hadDerivation .
+  dct:hasVersion 	  rdfs:subPropertyOf 	prov:hadRevision .
+  dct:isReferencedBy  rdfs:subPropertyOf 	prov:hadDerivation .
+  dct:provenance      rdfs:subPropertyOf    prov:has_provenance .

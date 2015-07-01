@@ -1,0 +1,18 @@
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+ prov:Publish          rdfs:subClassOf     prov:Activity .
+ prov:Contribute       rdfs:subClassOf     prov:Activity .
+ prov:Create           rdfs:subClassOf     prov:Activity, prov:Contribute .
+ prov:RightsAssignment rdfs:subClassOf     prov:Activity .
+ prov:Modify           rdfs:subClassOf     prov:Activity .
+ prov:Accept           rdfs:subClassOf     prov:Activity .
+ prov:Copyright        rdfs:subClassOf     prov:Activity .
+ prov:Submit           rdfs:subClassOf     prov:Activity .
+ prov:Replace          rdfs:subClassOf     prov:Activity .
+ prov:Publisher        rdfs:subClassOf     prov:Role .
+ prov:Contributor      rdfs:subClassOf     prov:Role . 
+ prov:Creator          rdfs:subClassOf     prov:Role, prov:Contributor .
+ prov:RightsHolder     rdfs:subClassOf     prov:Role .
