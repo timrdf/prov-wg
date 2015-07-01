@@ -72,11 +72,19 @@ pushd $PROV_NS &> /dev/null
    test_ns 'application/xml'     http://www.w3.org/ns/prov-links  prov-links.xsd
    echo
 
-   # ns/prov-dc only provides the http://www.w3.org/TR/prov-dc/#bib-refinements
-   #                  and not the http://www.w3.org/TR/prov-dc/#bib-mapping
-   test_ns 'text/turtle'         http://www.w3.org/ns/prov-dc  prov-dc.ttl
-   test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-dc  prov-dc.owl
-   # http://www.w3.org/ns/prov-dc-directmappings.ttl and http://www.w3.org/ns/prov-dc-refinements.ttl
+   # prov-dc is an derived elaboration of prov-dc-refinements (by adding an owl:Ontology and prov:definitions)
+   test_ns 'text/turtle'         http://www.w3.org/ns/prov-dc                 prov-dc.ttl
+   test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-dc                 prov-dc.owl
+   echo
+   #
+   # http://www.w3.org/TR/prov-dc/#bib-refinements
+   test_ns 'text/turtle'         http://www.w3.org/ns/prov-dc-refinements     prov-dc-refinements.ttl
+   test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-dc-refinements     prov-dc-refinements.owl
+   echo
+   #
+   # http://www.w3.org/TR/prov-dc/#bib-mapping
+   test_ns 'text/turtle'         http://www.w3.org/ns/prov-dc-directmappings  prov-dc-directmappings.ttl
+   test_ns 'application/rdf+xml' http://www.w3.org/ns/prov-dc-directmappings  prov-dc-directmappings.owl
    echo
 
    test_ns 'text/turtle'         http://www.w3.org/2011/prov/provenance/prov-o ../provenance/prov-o.ttl
