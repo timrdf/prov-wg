@@ -1,0 +1,30 @@
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+ dct:Agent           owl:equivalentClass       prov:Agent .
+ dct:ProvenanceStatement rdfs:subClassOf       prov:Bundle .
+ dct:rightsHolder    rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:creator         rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:publisher       rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:contributor     rdfs:subPropertyOf        prov:wasAttributedTo .
+ dct:isVersionOf     owl:equivalentProperty    prov:wasRevisionOf .
+ dct:hasFormat       rdfs:subPropertyOf        prov:alternateOf .
+ dct:isFormatOf      rdfs:subPropertyOf        prov:alternateOf .
+ dct:references      rdfs:subPropertyOf        prov:wasDerivedFrom .
+ dct:source          rdfs:subPropertyOf        prov:wasDerivedFrom .
+ 
+ prov:hadPrimarySource rdfs:subPropertyOf dct:source .
+ 
+ dct:created         rdfs:subPropertyOf    prov:generatedAtTime .
+ dct:issued          rdfs:subPropertyOf    prov:generatedAtTime .
+ dct:dateAccepted    rdfs:subPropertyOf    prov:generatedAtTime .
+ dct:dateCopyRighted rdfs:subPropertyOf    prov:generatedAtTime .
+ dct:dateSubmitted   rdfs:subPropertyOf    prov:generatedAtTime .
+ dct:modified        rdfs:subPropertyOf    prov:generatedAtTime .
+ 
+ #Terms not included in the core of PROV
+ dct:provenance     rdfs:subPropertyOf     prov:has_provenance .
+ dct:isReferencedBy rdfs:subPropertyOf     prov:hadDerivation .
+ dct:hasVersion     owl:equivalentProperty prov:hadRevision .
