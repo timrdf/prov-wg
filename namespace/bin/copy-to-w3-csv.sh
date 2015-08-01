@@ -25,13 +25,25 @@ function cp_if_diff() {
 }
 
 pushd $PROV_WG &> /dev/null
+
+   # PROV's errata
    cp_if_diff                            "errata.html" \
               "$W3C_ERRATA_HOME/2011/prov/errata.html"
+
+   # PROV's definitions
    for ns in prov-aq prov-links prov-o-inverses \
              prov-dc prov-dc-refinements prov-dc-directmappings; do
       for ext in ttl owl; do
          cp_if_diff       "namespace/$ns.$ext" \
                     "$W3C_NS_HOME/ns/$ns.$ext"
+      done
+   done
+
+   # PROV's PROVenance
+   for provprov in prov-o; do
+      for ext in ttl rdf; do
+         cp_if_diff                       "provenance/$provprov.$ext" \
+                   "$W3C_NS_HOME/2011/prov/provenance/$provprov.$ext"
       done
    done
 popd &> /dev/null
