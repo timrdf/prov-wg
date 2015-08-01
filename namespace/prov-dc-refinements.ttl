@@ -1,18 +1,35 @@
-@prefix prov: <http://www.w3.org/ns/prov#>.
-@prefix dct: <http://purl.org/dc/terms/>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
 
- prov:Publish          rdfs:subClassOf     prov:Activity .
- prov:Contribute       rdfs:subClassOf     prov:Activity .
- prov:Create           rdfs:subClassOf     prov:Activity, prov:Contribute .
- prov:RightsAssignment rdfs:subClassOf     prov:Activity .
- prov:Modify           rdfs:subClassOf     prov:Activity .
- prov:Accept           rdfs:subClassOf     prov:Activity .
- prov:Copyright        rdfs:subClassOf     prov:Activity .
- prov:Submit           rdfs:subClassOf     prov:Activity .
- prov:Replace          rdfs:subClassOf     prov:Activity .
- prov:Publisher        rdfs:subClassOf     prov:Role .
- prov:Contributor      rdfs:subClassOf     prov:Role . 
- prov:Creator          rdfs:subClassOf     prov:Role, prov:Contributor .
- prov:RightsHolder     rdfs:subClassOf     prov:Role .
+<http://www.w3.org/ns/prov-dc-refinements#>
+   a owl:Ontology;
+   rdfs:label "W3C PROV-O refinements for Dublin Core"@en;
+   owl:versionInfo "2013-04-30"@en;
+   owl:versionIRI <http://www.w3.org/ns/prov-dc-refinements-20130430>;
+   rdfs:seeAlso     <http://www.w3.org/TR/2013/NOTE-prov-dc-20130430/>, 
+                    <http://www.w3.org/ns/prov>;
+  #prov:wasRevisionOf <http://www.w3.org/ns/prov-dc-refinements-20130430>;
+   prov:alternateOf   <http://www.w3.org/ns/prov-dc#>;
+   frbr:abridgementOf <http://www.w3.org/ns/prov-dc#>;
+   frbr:complement    <http://www.w3.org/ns/prov-dc-directmappings#>;
+.
+<http://www.w3.org/ns/prov-dc#>
+   prov:wasDerivedFrom <http://www.w3.org/ns/prov-dc-refinements#>;
+.
+
+prov:Publish           rdfs:subClassOf  prov:Activity .
+prov:Contribute        rdfs:subClassOf  prov:Activity .
+prov:Create            rdfs:subClassOf  prov:Activity, prov:Contribute .
+prov:RightsAssignment  rdfs:subClassOf  prov:Activity .
+prov:Modify            rdfs:subClassOf  prov:Activity .
+prov:Accept            rdfs:subClassOf  prov:Activity .
+prov:Copyright         rdfs:subClassOf  prov:Activity .
+prov:Submit            rdfs:subClassOf  prov:Activity .
+prov:Replace           rdfs:subClassOf  prov:Activity .
+prov:Publisher         rdfs:subClassOf  prov:Role .
+prov:Contributor       rdfs:subClassOf  prov:Role . 
+prov:Creator           rdfs:subClassOf  prov:Role, prov:Contributor .
+prov:RightsHolder      rdfs:subClassOf  prov:Role .

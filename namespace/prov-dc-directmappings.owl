@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:prov="http://www.w3.org/ns/prov#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -97,4 +98,13 @@
   <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasRevisionOf">
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isVersionOf"/>
   </rdf:Description>
+  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-dc-directmappings#">
+    <frbr:complementOf rdf:resource="http://www.w3.org/ns/prov-dc#"/>
+    <frbr:complementOf rdf:resource="http://www.w3.org/ns/prov-dc-refinements#"/>
+    <rdfs:label xml:lang="en">W3C Dublin Core to PROV Mapping</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/2013/NOTE-prov-dc-20130430/"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov"/>
+    <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-dc-directmappings-20130430"/>
+    <owl:versionInfo xml:lang="en">2013-04-30</owl:versionInfo>
+  </owl:Ontology>
 </rdf:RDF>
