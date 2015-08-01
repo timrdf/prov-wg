@@ -57,6 +57,9 @@
     <prov:alternateOf rdf:resource="http://data.semanticweb.org/person/timothy-lebo"/>
     <prov:alternateOf rdf:resource="http://purl.org/twc/id/person/TimLebo"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://users.ox.ac.uk/~zool0770/#me">
+    <prov:alternateOf rdf:resource="http://data.semanticweb.org/person/jun-zhao"/>
+  </rdf:Description>
   <prov:Organization rdf:about="http://www.oeg-upm.net/#this">
     <geonames:parentFeature rdf:resource="http://dbpedia.org/resource/Spain"/>
   </prov:Organization>

@@ -180,7 +180,7 @@
    prov:actedOnBehalfOf  <http://dbpedia.org/resource/Oxford_university>;
    prov:specializationOf <http://users.ox.ac.uk/~zool0770/#me>;
 .
-<http://users.ox.ac.uk/~zool0770/#me>;
+<http://users.ox.ac.uk/~zool0770/#me>
    prov:alternateOf <http://data.semanticweb.org/person/jun-zhao>;
 .
 <http://dbpedia.org/resource/Oxford_university>
