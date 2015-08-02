@@ -7,7 +7,7 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGraffle6</string>
-		<string>161.6.0.234333</string>
+		<string>161.8.0.237618</string>
 	</array>
 	<key>AutoAdjust</key>
 	<true/>
@@ -455,15 +455,13 @@ file inclusion\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-dct:isFormatOf \cf2 \expnd0\expndtw0\kerning0
-\CocoaLigature0 (no isDefinedBy)\cf0 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \
+dct:isFormatOf\
    rdfs:subPropertyOf \
       prov:alternateOf,\
       prov:wasDerivedFrom .}</string>
@@ -531,15 +529,13 @@ dct:isFormatOf \cf2 \expnd0\expndtw0\kerning0
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-prov:Create \cf2 \expnd0\expndtw0\kerning0
-\CocoaLigature0 (no isDefinedBy)\cf0 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \
+prov:Create\
    rdfs:subClassOf\
       prov:Activity, prov:Contribute .}</string>
 			</dict>
@@ -693,7 +689,7 @@ prov:Create \cf2 \expnd0\expndtw0\kerning0
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -708,7 +704,7 @@ prov:Create \cf2 \expnd0\expndtw0\kerning0
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{704.30173199015223, 570.15613241454605}, {61, 14}}</string>
+			<string>{{702.90284405943407, 570.1415485606127}, {61, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -751,7 +747,7 @@ prov:Create \cf2 \expnd0\expndtw0\kerning0
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -778,7 +774,7 @@ rdf+xml}</string>
 			<array>
 				<string>{680.99828245336994, 586.97941138013346}</string>
 				<string>{740.23531248266704, 577.55882071750045}</string>
-				<string>{775.76219846899437, 601.17941166623575}</string>
+				<string>{770.36492827890095, 601.69326759959176}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -816,7 +812,7 @@ rdf+xml}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{717.21615541355629, 584.52077771103643}, {32, 14}}</string>
+			<string>{{713.17134126443761, 583.53852962311873}, {32, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -868,7 +864,7 @@ rdf+xml}</string>
 			<key>Text</key>
 			<dict>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -897,7 +893,7 @@ ttl}</string>
 			<array>
 				<string>{680.99828245336994, 586.97941138013346}</string>
 				<string>{726.40581273666999, 589.82170249684793}</string>
-				<string>{755.76219846899437, 601.17941166623575}</string>
+				<string>{747.94689722623536, 601.76343276068246}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -926,7 +922,7 @@ ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{468.99828626806726, 601.17941166623575}, {349, 108}}</string>
+			<string>{{427.62481585883967, 602.00585794722735}, {390.37347040922748, 108}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -987,10 +983,40 @@ ttl}</string>
 			<dict>
 				<key>Align</key>
 				<integer>0</integer>
+				<key>RTFD</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
+				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
+				bmcBlIQBK4HMADxodHRwOi8vd3d3LnczLm9yZy9ucy9w
+				cm92LWRjIz4KICAgYSBvd2w6T250b2xvZ3k7CiAgIG93
+				bDppbXBvcnRzCiAgICAgIDxodHRwOi8vd3d3LnczLm9y
+				Zy9ucy9wcm92LW8jPiAuCnByb3Y6QWNjZXB0CiAgICBy
+				ZGZzOnN1YkNsYXNzT2YgcHJvdjpBY3Rpdml0eSA7CiAg
+				ICByZGZzOmlzRGVmaW5lZEJ5IGh0dHA6Ly93d3cudzMu
+				b3JnL25zL3Byb3YtZGMjPoaEAmlJAYGvAJKEhIQMTlNE
+				aWN0aW9uYXJ5AJSEAWkEkoSWlgpOU0xpZ2F0dXJlhpKE
+				hIQITlNOdW1iZXIAhIQHTlNWYWx1ZQCUhAEqhIQBcZ0A
+				hpKElpYQTlNQYXJhZ3JhcGhTdHlsZYaShISEEE5TUGFy
+				YWdyYXBoU3R5bGUAlIQEQ0NAUwAAhISEB05TQXJyYXkA
+				lJkMkoSEhAlOU1RleHRUYWIAlIQCQ2YAHIaShKSiADiG
+				koSkogBUhpKEpKIAcIaShKSiAIGMAIaShKSiAIGoAIaS
+				hKSiAIHEAIaShKSiAIHgAIaShKSiAIH8AIaShKSiAIEY
+				AYaShKSiAIE0AYaShKSiAIFQAYaGgQAIhARbMWZdg83M
+				TD2GkoSWlgZOU0ZvbnSGkoSEhAZOU0ZvbnQelJkYhAVb
+				MjRjXQYAAAAQAAAA//5DAG8AdQByAGkAZQByAIQBZgyE
+				AWMApwGnAKcAhpKElpYGTlNLZXJuhpKEm5yEhAFkqACG
+				hpcCGJKEmJkGkrOShJuctagAhpKElpYNTlNTdHJva2VD
+				b2xvcoaShISEB05TQ29sb3IAlKcChARmZmZmAAAAAYaS
+				sJKxkoSWlgdOU0NvbG9yhpK5kp6Sn5KElpYNTlNTdHJv
+				a2VXaWR0aIaShJuctagAhoaXAwOShJiZBpKzkreSuJK5
+				krCShLKZJIQFWzM2Y10GAAAAGgAAAP/+QwBvAHUAcgBp
+				AGUAcgAtAEIAbwBsAGQAAACmDKcApwGnAKcAhpK7koS6
+				pwGqg4GAgD6DgYAAPwABhpKekp+SvJK9hpcCAoY=
+				</data>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
-{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
@@ -1000,8 +1026,10 @@ ttl}</string>
       &lt;http://www.w3.org/ns/prov-o#&gt; .\
 prov:Accept\
     rdfs:subClassOf prov:Activity ;\
-	\cf2 \expnd0\expndtw0\kerning0
-(no isDefinedBy on terms)}</string>
+    rdfs:isDefinedBy h\cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 ttp://www.w3.org/ns/prov
+\f1\b \cf3 -dc
+\f0\b0 \cf2 #&gt;}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1071,7 +1099,7 @@ prov:Accept\
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1145,9 +1173,9 @@ prov:Accept\
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
-{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
@@ -1155,7 +1183,9 @@ prov:Accept\
     a owl:Ontology .\
 prov:mentionOf\
 	rdfs:isDefinedBy\
-        &lt;http://www.w3.org/ns/prov-links#&gt; .}</string>
+        &lt;http://www.w3.org/ns/prov
+\f1\b \cf2 -links
+\f0\b0 \cf0 #&gt; .}</string>
 					</dict>
 				</dict>
 			</array>
@@ -1758,19 +1788,19 @@ prov:Dictionary\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
-{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
 \CocoaLigature0 &lt;http://www.w3.org/ns/prov-aq#&gt;\
     a owl:Ontology .\
 :has_provenance\
    rdfs:isDefinedBy\
-      \cf2 \expnd0\expndtw0\kerning0
-&lt;http://www.w3.org/ns/prov#&gt;\cf0 \expnd0\expndtw0\kerning0
- .}</string>
+      &lt;http://www.w3.org/ns/prov
+\f1\b \cf3 -aq
+\f0\b0 \cf2 #&gt; .}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2526,7 +2556,7 @@ rdf+xml}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -2542,7 +2572,7 @@ HTTP Request\
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1205.7536076717074, 914.992074459219}, {85, 19}}</string>
+					<string>{{1205.7392818693352, 914.99207060941035}, {85, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2581,7 +2611,7 @@ HTTP Request\
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -2605,8 +2635,8 @@ HTTP Request\
 					<integer>217</integer>
 					<key>Points</key>
 					<array>
-						<string>{1300.7237690128809, 967.07161486148834}</string>
-						<string>{1189.4340518212182, 876.75999987125397}</string>
+						<string>{1300.7193503360108, 967.07161486148834}</string>
+						<string>{1189.4086300999143, 876.75999987125397}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2689,7 +2719,7 @@ HTTP Request\
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -2747,7 +2777,7 @@ xml, application/xml}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -2796,7 +2826,7 @@ html, text/html}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red128\green64\blue0;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -2854,7 +2884,7 @@ rdf+xml, application/rdf+xml}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -2869,7 +2899,7 @@ ttl, text/turtle}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1079.4740971944127, 911.81143369290999}, {76, 19}}</string>
+					<string>{{1079.4494076696267, 911.81143214490885}, {76, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2908,7 +2938,7 @@ ttl, text/turtle}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -2932,8 +2962,8 @@ ttl, text/turtle}</string>
 					<integer>223</integer>
 					<key>Points</key>
 					<array>
-						<string>{1077.0415893931354, 957.57161486148834}</string>
-						<string>{1167.1519018136892, 876.75999987125397}</string>
+						<string>{1077.0307231382637, 957.57161486148834}</string>
+						<string>{1167.1102243446041, 876.75999987125397}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3012,7 +3042,7 @@ ttl, text/turtle}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -3064,7 +3094,7 @@ Resource Representation}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -3116,7 +3146,7 @@ Uniform Resource Identifier}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -3188,7 +3218,7 @@ Resource}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -3291,7 +3321,7 @@ available representation}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fnil\fcharset0 Georgia;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -3988,7 +4018,7 @@ html}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -4068,9 +4098,9 @@ http://www.w3.org/ns/prov-o}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
-{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
@@ -4079,7 +4109,9 @@ http://www.w3.org/ns/prov-o}</string>
 \
 :wasRevisionOf\
    rdfs:isDefinedBy\
-      &lt;http://www.w3.org/ns/prov-o#&gt;;\
+      &lt;http://www.w3.org/ns/prov
+\f1\b \cf2 -o
+\f0\b0 \cf0 #&gt;;\
    prov:inverse "hadRevision" .}</string>
 					</dict>
 				</dict>
@@ -4138,7 +4170,7 @@ http://www.w3.org/ns/prov-o}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -4220,9 +4252,9 @@ http://www.w3.org/ns/prov-o-inverses}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
-{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;}
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
@@ -4230,11 +4262,15 @@ http://www.w3.org/ns/prov-o-inverses}</string>
    owl:inverseOf\
       prov:wasRevisionOf;\
    rdfs:isDefinedBy \
-      &lt;http://www.w3.org/ns/prov-o-inverses#&gt; .\
+      &lt;http://www.w3.org/ns/prov
+\f1\b \cf2 -o-inverses
+\f0\b0 \cf0 #&gt; .\
 \
 prov:wasRevisionOf\
    rdfs:isDefinedBy\
-      &lt;http://www.w3.org/ns/prov-o#&gt; .}</string>
+      &lt;http://www.w3.org/ns/prov
+\f1\b \cf2 -o
+\f0\b0 \cf0 #&gt; .}</string>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -4706,7 +4742,7 @@ prov:wasRevisionOf\
 			<integer>316</integer>
 			<key>Points</key>
 			<array>
-				<string>{817.9982862680672, 655.17941166623575}</string>
+				<string>{817.9982862680672, 656.00585794722735}</string>
 				<string>{886.76225950415142, 671.52178642477338}</string>
 			</array>
 			<key>Style</key>
@@ -4795,7 +4831,7 @@ prov:wasRevisionOf\
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
@@ -4853,7 +4889,7 @@ The direct mappings are available here.}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
@@ -4910,7 +4946,7 @@ The prov refinements for Dublin Core can be accessed here here.}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -4969,7 +5005,7 @@ http://www.w3.org/ns/prov-dc-directmappings.ttl}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -5041,7 +5077,7 @@ http://www.w3.org/ns/prov-dc-refinements.ttl}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
@@ -5176,7 +5212,7 @@ Note}</string>
 								AJsAhoaG
 								</data>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red8\green70\blue138;}
 \deftab720
@@ -8407,7 +8443,7 @@ ttl}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-06-28 20:16:45 +0000</string>
+	<string>2015-08-02 20:54:52 +0000</string>
 	<key>Modifier</key>
 	<string>Tim Lebo</string>
 	<key>NotesVisible</key>
@@ -8483,9 +8519,9 @@ ttl}</string>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{229, 49}, {1450, 978}}</string>
+		<string>{{0, 48}, {1680, 979}}</string>
 		<key>ShowInfo</key>
-		<false/>
+		<true/>
 		<key>Sidebar</key>
 		<false/>
 		<key>SidebarWidth</key>
@@ -8493,15 +8529,15 @@ ttl}</string>
 		<key>TopSlabHeight</key>
 		<real>250</real>
 		<key>VisibleRegion</key>
-		<string>{{0.95238095238095244, 379.52380952380952}, {1380, 839.04761904761915}}</string>
+		<string>{{0.82644628099173556, 514.04958677685954}, {1142.1487603305784, 728.92561983471069}}</string>
 		<key>Zoom</key>
-		<real>1.05</real>
+		<real>1.21</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Canvas 1</string>
-				<real>1.05</real>
-				<real>1.02</real>
+				<real>1.21</real>
+				<real>1.1000000000000001</real>
 			</array>
 		</array>
 	</dict>
