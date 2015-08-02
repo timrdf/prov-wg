@@ -1,11 +1,63 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>406 Not Acceptable</title>
-</head><body>
-<h1>Not Acceptable</h1>
-<p>An appropriate representation of the requested resource /ns/prov-dc-refinements could not be found on this server.</p>
-Available variants:
-<ul>
-<li><a href="prov-dc-refinements.ttl">prov-dc-refinements.ttl</a> , type text/turtle</li>
-</ul>
-</body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Accept">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Contribute">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Contributor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Copyright">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Create">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Contribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Creator">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Contributor"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Modify">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Publish">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Publisher">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Replace">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#RightsAssignment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#RightsHolder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Submit">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov-dc#">
+    <prov:wasDerivedFrom rdf:resource="http://www.w3.org/ns/prov-dc-refinements#"/>
+  </rdf:Description>
+  <owl:Ontology rdf:about="http://www.w3.org/ns/prov-dc-refinements#">
+    <frbr:abridgementOf rdf:resource="http://www.w3.org/ns/prov-dc#"/>
+    <frbr:complement rdf:resource="http://www.w3.org/ns/prov-dc-directmappings#"/>
+    <rdfs:label xml:lang="en">W3C PROV-O refinements for Dublin Core</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/2013/NOTE-prov-dc-20130430/"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov"/>
+    <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-dc-refinements-20130430"/>
+    <owl:versionInfo xml:lang="en">2013-04-30</owl:versionInfo>
+    <prov:alternateOf rdf:resource="http://www.w3.org/ns/prov-dc#"/>
+  </owl:Ontology>
+</rdf:RDF>

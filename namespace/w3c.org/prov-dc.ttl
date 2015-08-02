@@ -1,79 +1,102 @@
-@prefix : <http://www.w3.org/ns/prov-dc#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
 
-prov:Accept a owl:Class ;
-    rdfs:label "Accept"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the acceptance of a resource (e.g., an article in a conference)"@en .
+<http://www.w3.org/ns/prov-dc#>
+   a owl:Ontology;
+   rdfs:label "Dublin Core extensions of the W3C PROVenance Interchange Ontology (PROV-O)"@en;
+   owl:versionInfo "2013-04-30"@en;
+   owl:versionIRI <http://www.w3.org/ns/prov-dc-20130430>;
+  #prov:wasRevisionOf <http://www.w3.org/ns/prov-dc-20130430>;
+   rdfs:seeAlso   <http://www.w3.org/TR/2013/NOTE-prov-dc-20130430/>,
+                  <http://www.w3.org/ns/prov>;
+   rdfs:comment """This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page).
 
-prov:Copyright a owl:Class ;
-    rdfs:label "Copyright"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the Copyrighting activity associated to a resource."@en .
+If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome."""@en;
 
-prov:Create a owl:Class ;
-    rdfs:label "Create"@en ;
-    rdfs:subClassOf prov:Contribute ;
-    prov:definition "Activity that identifies the creation of a resource"@en .
+   owl:imports <http://www.w3.org/ns/prov-o#>;
 
-prov:Creator a owl:Class ;
-    rdfs:label "Creator"@en ;
-    rdfs:subClassOf prov:Contributor ;
-    prov:definition "Role with the function of creating a resource. The Agent assigned to this role is associated with a Create Activity"@en .
+   prov:alternateOf    <http://www.w3.org/ns/prov-dc-refinements#>;
+   prov:wasDerivedFrom <http://www.w3.org/ns/prov-dc-refinements#>;
+   frbr:abridgement    <http://www.w3.org/ns/prov-dc-refinements#>;
+   frbr:complement     <http://www.w3.org/ns/prov-dc-directmappings#>;
+.
 
-prov:Modify a owl:Class ;
-    rdfs:label "Modify"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the modification of a resource. "@en .
+prov:Publish a owl:Class;
+   rdfs:label "Publish"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the publication of a resource"@en .
 
-prov:Publish a owl:Class ;
-    rdfs:label "Publish"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the publication of a resource"@en .
+prov:Contribute a owl:Class;
+   rdfs:label "Contribute"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies any contribution of an agent to a resource."@en .
 
-prov:Publisher a owl:Class ;
-    rdfs:label "Publisher"@en ;
-    rdfs:subClassOf prov:Role ;
-    prov:definition "Role with the function of publishing a resource. The Agent assigned to this role is associated with a Publish Activity"@en .
+prov:Create a owl:Class;
+   rdfs:label "Create"@en;
+   rdfs:subClassOf prov:Contribute;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the creation of a resource"@en .
 
-prov:Replace a owl:Class ;
-    rdfs:label "Replace"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the replacement of a resource."@en .
+prov:RightsAssignment a owl:Class;
+   rdfs:label "RightsAssignment"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the rights assignment of a resource."@en .
 
-prov:RightsAssignment a owl:Class ;
-    rdfs:label "RightsAssignment"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the rights assignment of a resource."@en .
+prov:Modify a owl:Class;
+   rdfs:label "Modify"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the modification of a resource."@en .
 
-prov:RightsHolder a owl:Class ;
-    rdfs:label "RightsHolder"@en ;
-    rdfs:subClassOf prov:Role ;
-    prov:definition "Role with the function of owning or managing rights over a resource. The Agent assigned to this role is associated with a RightsAssignment Activity"@en .
+prov:Accept a owl:Class;
+   rdfs:label "Accept"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the acceptance of a resource (e.g., an article in a conference)"@en .
 
-prov:Submit a owl:Class ;
-    rdfs:label "Submit"@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies the issuance (e.g., publication) of a resource. "@en .
+prov:Copyright a owl:Class;
+   rdfs:label "Copyright"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the Copyrighting activity associated to a resource."@en .
 
-: a owl:Ontology ;
-    rdfs:label "Dublin Core extensions of the W3C PROVenance Interchange Ontology (PROV-O) "@en ;
-    rdfs:comment """This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page). 
+prov:Submit a owl:Class;
+   rdfs:label "Submit"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the issuance (e.g., publication) of a resource."@en .
 
-If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome."""@en ;
-    owl:imports <http://www.w3.org/ns/prov-o#> .
+prov:Replace a owl:Class;
+   rdfs:label "Replace"@en;
+   rdfs:subClassOf prov:Activity;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Activity that identifies the replacement of a resource."@en .
 
-prov:Contribute a owl:Class ;
-    rdfs:label """Contribute
-"""@en ;
-    rdfs:subClassOf prov:Activity ;
-    prov:definition "Activity that identifies any contribution of an agent to a resource. "@en .
+prov:Publisher a owl:Class;
+   rdfs:label "Publisher"@en;
+   rdfs:subClassOf prov:Role;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Role with the function of publishing a resource. The Agent assigned to this role is associated with a Publish Activity"@en .
 
-prov:Contributor a owl:Class ;
-    rdfs:label "Contributor"@en ;
-    rdfs:subClassOf prov:Role ;
-    prov:definition "Role with the function of having responsibility for making contributions to a resource. The Agent assigned to this role is associated with a Modify or Create Activities"@en .
+prov:Contributor a owl:Class;
+   rdfs:label "Contributor"@en;
+   rdfs:subClassOf prov:Role;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Role with the function of having responsibility for making contributions to a resource. The Agent assigned to this role is associated with a Modify or Create Activities"@en .
 
+prov:Creator a owl:Class;
+   rdfs:label "Creator"@en;
+   rdfs:subClassOf prov:Contributor;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Role with the function of creating a resource. The Agent assigned to this role is associated with a Create Activity"@en .
 
+prov:RightsHolder a owl:Class;
+   rdfs:label "RightsHolder"@en;
+   rdfs:subClassOf prov:Role;
+   rdfs:isDefinedBy <http://www.w3.org/ns/prov-dc#>;
+   prov:definition "Role with the function of owning or managing rights over a resource. The Agent assigned to this role is associated with a RightsAssignment Activity"@en .
