@@ -12,6 +12,7 @@
 
 <rdf:RDF xmlns="http://www.w3.org/ns/prov#"
      xml:base="http://www.w3.org/ns/prov"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -24,6 +25,9 @@
 If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/prov-dictionary/"/>
         <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov"/>
+        <owl:versionIRI rdf:resource="http://www.w3.org/ns/prov-dictionary-20130430"/>
+        <owl:versionInfo xml:lang="en">2013-04-30</owl:versionInfo>
+        <prov:has_provenance rdf:resource="http://www.w3.org/2011/prov/provenance/prov-dictionary"/>
     </owl:Ontology>
 
 	<owl:Ontology rdf:about="http://www.w3.org/ns/prov#"></owl:Ontology>	
@@ -49,7 +53,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>The dictionary was derived from the other by insertion. Can be qualified with prov:qualifiedInsertion, which shows details of the insertion, in particular the inserted key-entity pairs.</definition>
         <component>collections</component>
         <category>collections</category>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
@@ -67,7 +71,7 @@ If you wish to make comments regarding this document, please send them to public
         <component>collections</component>
         <definition>The dictionary was derived from the other by removal. Can be qualified with prov:qualifiedRemoval, which shows details of the removal, in particular the removed keys.</definition>
         <category>collections</category>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
@@ -87,7 +91,7 @@ If you wish to make comments regarding this document, please send them to public
         <category>collections</category>
         <component>collections</component>
         <definition>The property used by a prov:Insertion and prov:Removal to cite the prov:Dictionary that was prov:derivedByInsertionFrom or prov:derivedByRemovalFrom another dictionary.</definition>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Insertion"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Removal"/>
@@ -105,7 +109,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>Describes the key-entity pair that was member of a prov:Dictionary. A dictionary can have multiple members.</definition>
         <component>collections</component>
         <category>collections</category>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#KeyEntityPair"/>
     </owl:ObjectProperty>
@@ -122,7 +126,7 @@ If you wish to make comments regarding this document, please send them to public
         <component>collections</component>
         <category>collections</category>
         <definition>An object property to refer to the prov:KeyEntityPair inserted into a prov:Dictionary.</definition>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Insertion"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#KeyEntityPair"/>
     </owl:ObjectProperty>
@@ -140,7 +144,7 @@ If you wish to make comments regarding this document, please send them to public
         <category>collections</category>
         <component>collections</component>
         <definition>The entity of a prov:KeyEntityPair, which is an element of a prov:Dictionary.</definition>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#KeyEntityPair"/>
     </owl:ObjectProperty>
@@ -157,7 +161,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>prov:qualifiedInsertion shows the details of an insertion, in particular the inserted key-entity pairs.</definition>
         <category>collections</category>
         <component>collections</component>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Insertion"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedDerivation"/>
@@ -175,7 +179,7 @@ If you wish to make comments regarding this document, please send them to public
         <category>collections</category>
         <component>collections</component>
         <definition>prov:qualifiedRemoval shows the details of a removal, in particular the removed keys.</definition>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Dictionary"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Removal"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedDerivation"/>
@@ -205,7 +209,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>The key of a prov:KeyEntityPair, which is an element of a prov:Dictionary.</definition>
         <category>collections</category>
         <rdfs:range rdf:resource="&rdfs;Literal"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#KeyEntityPair"/>
     </owl:DatatypeProperty>
     
@@ -222,7 +226,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>The key removed in a Removal.</definition>
         <component>collections</component>
         <rdfs:range rdf:resource="&rdfs;Literal"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Removal"/>
     </owl:DatatypeProperty>
     
@@ -249,7 +253,7 @@ If you wish to make comments regarding this document, please send them to public
         <component>collections</component>
         <category>collections</category>
         <rdfs:comment>This concept allows for the provenance of the dictionary, but also of its constituents to be expressed. Such a notion of dictionary corresponds to a wide variety of concrete data structures, such as a maps or associative arrays.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
     </owl:Class>
     
 
@@ -266,7 +270,7 @@ If you wish to make comments regarding this document, please send them to public
         <component>collections</component>
         <definition>An empty dictionary (i.e. has no members).</definition>
         <category>collections</category>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
     </owl:Class>
     
 
@@ -294,7 +298,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>Insertion is a derivation that describes the transformation of a dictionary into another, by insertion of one or more key-entity pairs.</definition>
         <category>collections</category>
         <component>collections</component>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <unqualifiedForm rdf:resource="http://www.w3.org/ns/prov#derivedByInsertionFrom"/>
     </owl:Class>
     
@@ -322,7 +326,7 @@ If you wish to make comments regarding this document, please send them to public
         <definition>A key-entity pair. Part of a prov:Dictionary through prov:hadDictionaryMember. The key is any RDF Literal, the value is a prov:Entity.</definition>
         <component>collections</component>
         <category>collections</category>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
     </owl:Class>
     
 
@@ -350,9 +354,7 @@ If you wish to make comments regarding this document, please send them to public
         <category>collections</category>
         <definition>Removal is a derivation that describes the transformation of a dictionary into another, by removing one or more keys.</definition>
         <component>collections</component>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-dictionary#"/>
         <unqualifiedForm rdf:resource="http://www.w3.org/ns/prov#derivedByRemovalFrom"/>
     </owl:Class>
 </rdf:RDF>
-
-
